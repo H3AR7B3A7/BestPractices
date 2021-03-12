@@ -2,7 +2,7 @@
 
 Various documentations on good practices for software development.
 
-Summaries:
+### Summaries:
 - [Solid Principles](SOLID.md)
 
 - [Clean Code](Clean%20Code.md)  
