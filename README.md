@@ -1,4 +1,4 @@
-# Good Practices
+# Coding Best Practices
 
 Various documentations on good practices for software development.
 
