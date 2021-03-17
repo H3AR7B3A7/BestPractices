@@ -1,6 +1,6 @@
 # Coding Best Practices
 
-Various documentations on good practices for software development.
+Various documentations on best practices in software development.
 
 ### Summaries:
 - [Solid Principles](SOLID.md)
