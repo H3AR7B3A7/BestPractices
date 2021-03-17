@@ -151,6 +151,26 @@ Locations
 
 *When you feel like a long list of declarations needs spacing in Java, you should probably split the class.*
 
+**Indentation**:  
+Visualises the scope hierarchy.
+- Avoid breaking the rule on indentation even in compact structures
+- Mind dummy scopes (the semicolon after a one liner is easy to miss)
+
+***Teams should agree on a single style of formatting. Consistent gestures help readability a lot.***
+
+## Objects & Datastructutres
+
+**Objects**
+
+Hiding implementation:
+- ≠ Layer of functions between the variables
+- = Abstractions
+    - Manipulating the essence of the object
+    - Not knowing the implementation
+
+**Data structures**
+
+Exposing data w/o meaningful functions
 
 
 ---
