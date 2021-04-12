@@ -160,17 +160,38 @@ Visualises the scope hierarchy.
 
 ## Objects & Datastructutres
 
+Hiding implementation ≠ Layer of functions between the variables.
+
 **Objects**
 
-Hiding implementation:
-- ≠ Layer of functions between the variables
-- = Abstractions
+- Abstractions
+- Exposing functions
     - Manipulating the essence of the object
     - Not knowing the implementation
 
 **Data structures**
+- Exposing data
+- No meaningful functions
 
-Exposing data w/o meaningful functions
+**Procedural vs Visitor- or Dual-Dispatch Pattern**
+Sometimes you really do want simple data structures with procedures operating on them.
+(It is just a myth that "everything is an object".)
+
+### The Law of Demeter
+
+*(Modules shouldn't know about innards of the objects it manipulates.)*
+
+A method **f** of a class **C** should only call methods of these:
+- C
+- An object created by f
+- An object held in an instance variable of C
+
+The method should NOT invoke methods on objects that are returned by any of the allowed functions.
+("Talk to friends, not to strangers.")
+
+### Train Wreck
+
+*Chained calls are generally sloppy programming.
 
 
 ---
