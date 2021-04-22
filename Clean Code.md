@@ -211,6 +211,39 @@ None of these data structures should contain any business logic, which belongs i
 
 ## Error Handling
 
+Error handling is important, but if it obscures logic, it's wrong.
+
+It is cleaner to throw an exception in the callee than it is to use return codes in the caller.
+
+Starting with a Try-Catch-Finally statement will help us define a scope to which we can safely add logic using TDD.
+
+Checked exceptions violate the Open-Closed principle. A change in low level code can force many higher classes add exceptions to method signatures.
+This is why other languages don't have any, and we should use unchecked exceptions. They are only useful in critical libraries, not when writing applications.
+
+An exception should provide adequate context in a good error message to locate the error.
+
+### Defining Exceptions
+
+Classifications:
+- Source
+- Type
+
+How to catch them:
+- We should think about a 'common exception type' when we need to catch multiple exceptions.
+- Often a wrapper can help us catch and translate exceptions (of a 3d party API).
+  - Minimize dependencies
+  - Easy to swap out libraries later
+  - Easy to mock out 3d party calls in testing
+  - Not tied to 3d party API design
+
+One exception class is sufficient for an area of code, unless we want to catch one exception and allow another to pass through.
+
+### Defining Normal Flow
+
+Even better than handling an exception is making it part of the normal flow, by using something like the *Special Case Pattern*.
+The client code doesn't need to handle the exception if it is encapsulated in a special case object.
+
+### Don't Return Null
 
 
 
