@@ -189,9 +189,29 @@ A method **f** of a class **C** should only call methods of these:
 The method should NOT invoke methods on objects that are returned by any of the allowed functions.
 ("Talk to friends, not to strangers.")
 
-### Train Wreck
+**Chained calls are generally sloppy programming and often rightfully called train wrecks.**
 
-*Chained calls are generally sloppy programming.
+These are in violation of Demeter only if the methods call for objects, but not when just accessing data structures. The difference often gets obscured by accessor functions.
+
+If they are objects we should ask ourselves what we need them for. We should make the initial object 'DO' something for us.
+This way we avoid having to know about the inners of the objects.
+
+### Data Transfer Objects
+
+Uses:
+- Communication with databases
+- Parsing from sockets
+- ...
+
+**Beans** are almost equivalent to this, but with accessor functions are 'quasi-encapsulated' without any real benefit.
+
+**Active records** are a special form of DTO, with navigational methods like *save* and *find*.
+
+None of these data structures should contain any business logic, which belongs in separate objects.
+
+## Error Handling
+
+
 
 
 ---
