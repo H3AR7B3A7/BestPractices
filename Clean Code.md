@@ -211,7 +211,7 @@ None of these data structures should contain any business logic, which belongs i
 
 ## Error Handling
 
-Error handling is important, but if it obscures logic, it's wrong.
+*Error handling is important, but if it obscures logic, it's wrong.*
 
 It is cleaner to throw an exception in the callee than it is to use return codes in the caller.
 
@@ -245,6 +245,27 @@ The client code doesn't need to handle the exception if it is encapsulated in a 
 
 ### Don't Return Null
 
+Passing null to a method is even worse than returning null.
+
+Fixes:
+- Exception + handling
+- Assertions
+
+We'd still have a runtime error, and it is better to forbid passing null in the first place!
+
+## Boundaries
+
+We should keep clean boundaries between our software and foreign code.
+
+Conflicting interests:
+- Provider: broad applicability
+- User: focus on needs
+
+By wrapping we can make the code easier to read and harder to misuse. We can enforce design and business rules upon this wrapper.
+
+**Learning tests** can help us understand third party code.
+We shouldn't thoroughly test the third party API, but small tests similar to how we use that API can help differentiate problems 
+in our own code from misunderstandings about the foreign code.
 
 
 ---
