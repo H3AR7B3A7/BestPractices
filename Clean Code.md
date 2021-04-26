@@ -300,6 +300,23 @@ FIRST (Object Mentor Training Materials idea of writing clean tests)
 - Self-Validating: They should either pass or fail (no investigating)
 - Timely: They should be written right before production code
 
+## Classes
+
+Order:
+- public static finals (constants)
+- private static variables
+- private instance variables
+- public functions
+  - private functions called by them right after
+
+We look for ways to maintain privacy (encapsulation), but will allow protected / package private variables or utility functions to be accessible by a test.
+
+Rules:
+- They should be small (No 'god' classes)
+- They should have a single responsibility (Have a concise name/description)
+  - When description requires 'and/if/or' it likely has too many
+
+
 
 
 
