@@ -267,6 +267,20 @@ By wrapping we can make the code easier to read and harder to misuse. We can enf
 We shouldn't thoroughly test the third party API, but small tests similar to how we use that API can help differentiate problems 
 in our own code from misunderstandings about the foreign code.
 
+We can handle yet unwritten code the same way. By temporarily creating the API we wish we had we can write concise code for it.
+We can then write a wrapper for the actual code when eventually the code is developed.
+
+## Unit Tests
+
+Three laws of TDD:
+- You may not write production code until you have written a failing test.
+- You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+- You may not write more production code than is sufficient to pass the current failing test.
+
+*This way of working will generate A LOT of tests, which we need to manage and keep clean.*
+
+
+
 
 ---
 *Work in progress...*
