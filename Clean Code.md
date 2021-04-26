@@ -272,12 +272,36 @@ We can then write a wrapper for the actual code when eventually the code is deve
 
 ## Unit Tests
 
+*If we let our tests rot, the production code will rot too.*
+
 Three laws of TDD:
 - You may not write production code until you have written a failing test.
 - You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
 - You may not write more production code than is sufficient to pass the current failing test.
 
 *This way of working will generate A LOT of tests, which we need to manage and keep clean.*
+
+Our tests are just as important as production code. A mess in the testing suite will lead to loss of maintainability and eventually abandonment.
+Losing our tests is losing confidence to make changes to our code, not knowing if we introduced bugs when doing so.
+
+**Readability** is even more key in unit tests than in production code.
+- Avoid code repetition
+- Refactor out irrelevant details (Creating a 'Testing API')
+- Make 'BUILD-OPERATE-CHECK' structure visible
+- Prefer readability to efficiency (memory/CPU)
+- Keep tests small and clear
+- One assert per test (as a guideline)
+  - Test a single concept
+
+FIRST (Object Mentor Training Materials idea of writing clean tests)
+- Fast: They should run quickly
+- Independent: They should not depend on each other
+- Repeatable: They should be repeatable in any environment
+- Self-Validating: They should either pass or fail (no investigating)
+- Timely: They should be written right before production code
+
+
+
 
 
 
