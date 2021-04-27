@@ -311,12 +311,19 @@ Order:
 
 We look for ways to maintain privacy (encapsulation), but will allow protected / package private variables or utility functions to be accessible by a test.
 
-Rules:
-- They should be small (No 'god' classes)
-- They should have a single responsibility (Have a concise name/description)
-  - When description requires 'and/if/or' it likely has too many
-
-
+Rules a clean class adheres to:
+- Small size (No 'god' classes)
+  - Single responsibility
+    - A description shouldn't require 'and/if/or' (concise name/description)
+    - If something prevents the class to be reusable, it probably doesn't belong
+  - Small number of instance variables
+    - Each method should operate on one or more of them (cohesion)
+    - Instance variables serving to keep a subset of methods small almost always means they belong in a new class
+    - Refactoring methods while keeping parameter lists small will generate more instance variables and thus possible new classes
+- Open-Closed Principle
+  - We use interfaces and abstract classes to isolate concrete details from changes in the code
+  
+  
 
 
 
