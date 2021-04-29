@@ -322,8 +322,30 @@ Rules a clean class adheres to:
     - Refactoring methods while keeping parameter lists small will generate more instance variables and thus possible new classes
 - Open-Closed Principle
   - We use interfaces and abstract classes to isolate concrete details from changes in the code
-  
-  
+
+## Systems
+
+Abstractions and modularity are key for components to work effectively.
+
+### Separating construction from use:
+
+**Separation of main:**
+- Main:
+  - Consistent strategy for resolving major dependencies
+- Application
+  - Use interfaces that call on these dependencies
+
+**Dependency Injection:**
+
+*(The application of Inversion of Control to dependency management)*
+
+An authoritative mechanism, either a main routine or a special-purpose container, is responsible for resolving dependencies.
+
+The Spring framework provides the best known DI container for Java.
+
+### Scaling up:
+
+*The architecture of software systems can grow incrementally **IF** proper separation of concerns is maintained.*
 
 
 
