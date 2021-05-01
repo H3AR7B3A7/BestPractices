@@ -347,7 +347,24 @@ The Spring framework provides the best known DI container for Java.
 
 *The architecture of software systems can grow incrementally **IF** proper separation of concerns is maintained.*
 
+In practice, sometimes fine-grained intersection of domains can tend to cut across the natural object boundaries.
+Aspect oriented programming is a general-purpose approach to restoring modularity for these cross-cutting concerns.
 
+Aspect-like mechanisms in Java:
+
+- **Java Proxies**:
+For simple situations like wrapping method calls in individual objects or classes.
+Dynamic proxies in JDK only work with interfaces. To proxy classes we need to use a byte-code manipulation library like CGLIB, ASM or Javassist.
+The code volume and complexity even for simple cases, makes it hard to keep code clean.
+
+- **Pure Java AOP Frameworks**:
+Spring AOP or JBoss AOP can handle most of the proxy boilerplate code. Even the outdated verbose wiring of beans using XML was preferable over the complexity of proxy and aspect logic.
+The application is almost completely decoupled from Spring and the tight-coupling problems are eliminated, making it easy to test and maintain.
+These frameworks are sufficient for +-90% of the cases.
+
+- **AspectJ Aspects**:
+An extension of Java that provides first-class support for aspects as modularity constructs.
+Tools and language constructs can be a drawback, but are largely mitigated by annotation-based aspects.
 
 
 
