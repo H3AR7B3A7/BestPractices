@@ -404,6 +404,17 @@ They allow all levels of abstraction and all domains in the application to be ex
 
 ## Emergence
 
+Kent Beck's four rules of **Simple Design**:
+- Runs all the tests
+- Contains no duplication
+- Expresses the intent of the programmer
+- Minimizes the number of classes and methods
+
+
+## Concurrency
+
+
+
 
 ---
 *Work in progress...*
