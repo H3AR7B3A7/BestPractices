@@ -22,6 +22,7 @@
 **Classes**: nouns or noun phrase  
 **Methods**: verbs or verb phrase
 
+
 ## Functions
 
 They should:
@@ -63,6 +64,7 @@ They should:
 **Try/Catch** blocks
 - Extract the bodies into functions
 
+
 ## DRY
 
 *Don't Repeat Yourself.*
@@ -89,6 +91,7 @@ Breaks and continues can help in our expressions.
 
 **Method**:
 We start by writing a first draft and then improve our code to apply these good practices.
+
 
 ## Comments
 
@@ -121,6 +124,7 @@ We start by writing a first draft and then improve our code to apply these good 
 - Inobvious connection
 - Function headers
 - ...
+
 
 ## Formatting
 
@@ -158,6 +162,7 @@ Visualises the scope hierarchy.
 
 ***Teams should agree on a single style of formatting. Consistent gestures help readability a lot.***
 
+
 ## Objects & Datastructutres
 
 Hiding implementation ≠ Layer of functions between the variables.
@@ -176,6 +181,7 @@ Hiding implementation ≠ Layer of functions between the variables.
 **Procedural vs Visitor- or Dual-Dispatch Pattern**
 Sometimes you really do want simple data structures with procedures operating on them.
 (It is just a myth that "everything is an object".)
+
 
 ### The Law of Demeter
 
@@ -196,6 +202,7 @@ These are in violation of Demeter only if the methods call for objects, but not 
 If they are objects we should ask ourselves what we need them for. We should make the initial object 'DO' something for us.
 This way we avoid having to know about the inners of the objects.
 
+
 ### Data Transfer Objects
 
 Uses:
@@ -209,6 +216,7 @@ Uses:
 
 None of these data structures should contain any business logic, which belongs in separate objects.
 
+
 ## Error Handling
 
 *Error handling is important, but if it obscures logic, it's wrong.*
@@ -221,6 +229,7 @@ Checked exceptions violate the Open-Closed principle. A change in low level code
 This is why other languages don't have any, and we should use unchecked exceptions. They are only useful in critical libraries, not when writing applications.
 
 An exception should provide adequate context in a good error message to locate the error.
+
 
 ### Defining Exceptions
 
@@ -238,10 +247,12 @@ How to catch them:
 
 One exception class is sufficient for an area of code, unless we want to catch one exception and allow another to pass through.
 
+
 ### Defining Normal Flow
 
 Even better than handling an exception is making it part of the normal flow, by using something like the *Special Case Pattern*.
 The client code doesn't need to handle the exception if it is encapsulated in a special case object.
+
 
 ### Don't Return Null
 
@@ -252,6 +263,7 @@ Fixes:
 - Assertions
 
 We'd still have a runtime error, and it is better to forbid passing null in the first place!
+
 
 ## Boundaries
 
@@ -269,6 +281,7 @@ in our own code from misunderstandings about the foreign code.
 
 We can handle yet unwritten code the same way. By temporarily creating the API we wish we had we can write concise code for it.
 We can then write a wrapper for the actual code when eventually the code is developed.
+
 
 ## Unit Tests
 
@@ -300,6 +313,7 @@ FIRST (Object Mentor Training Materials idea of writing clean tests)
 - Self-Validating: They should either pass or fail (no investigating)
 - Timely: They should be written right before production code
 
+
 ## Classes
 
 Order:
@@ -323,9 +337,11 @@ Rules a clean class adheres to:
 - Open-Closed Principle
   - We use interfaces and abstract classes to isolate concrete details from changes in the code
 
+
 ## Systems
 
 Abstractions and modularity are key for components to work effectively.
+
 
 ### Separating construction from use:
 
@@ -342,6 +358,7 @@ Abstractions and modularity are key for components to work effectively.
 An authoritative mechanism, either a main routine or a special-purpose container, is responsible for resolving dependencies.
 
 The Spring framework provides the best known DI container for Java.
+
 
 ### Scaling up:
 
@@ -366,7 +383,26 @@ These frameworks are sufficient for +-90% of the cases.
 An extension of Java that provides first-class support for aspects as modularity constructs.
 Tools and language constructs can be a drawback, but are largely mitigated by annotation-based aspects.
 
+The ability to write our application's domain logic using simple POJOs decoupled from the architecture helps us separate concerns.
+This separation of concerns allows for more agile development in absence of 'Big Design Up Front'.
+Thinking about design is good, but designing *everything* up front limits the ability to adapt to change.
 
+The agility provided by a POJO system with modularized concerns allows us to make optimal, just-in-time decisions,
+based on recent knowledge. The complexity of these decisions is also reduced.
+
+**Standards** make it easier to reuse ideas and components, recruit people with relevant experience, encapsulate good ideas,
+and write components together. However, the process of creating standards can sometimes take too long for industry to wait,
+and some standards lose touch with the real needs of the adopters they are intended to serve.
+
+
+### Domain Specific Languages
+
+DSL can help code to better reflect a domain experts input. Used effectively, they can raise the abstraction level above code idioms and design patterns.
+
+They allow all levels of abstraction and all domains in the application to be expressed as POJOs, from high-level policy to low-level details.
+
+
+## Emergence
 
 
 ---
