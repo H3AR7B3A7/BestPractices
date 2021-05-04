@@ -413,6 +413,24 @@ Kent Beck's four rules of **Simple Design**:
 
 ## Concurrency
 
+Concurrency helps us decouple what gets done from when it gets done. It can improve the throughput and the structure of a program.
+The improvement in throughput is greatest when there is a lot of waiting involved (for example on web-sockets).
+
+Common misconceptions:
+- Concurrency is always faster
+- Design does not change when writing concurrent programs
+- Understanding concurrency issues is not important when working with a container such as Web or EJB container
+
+Facts:
+- Concurrency incurs some overhead, both in performance and writing additional code
+- Correct concurrency is complex, even for simple problems
+- Concurrency bugs aren't usually repeatable and are often ignored as one-offs instead of a defect
+- Concurrency often requires a fundamental change in design strategy
+
+### Concurrency Defense Principles
+
+
+
 
 
 
