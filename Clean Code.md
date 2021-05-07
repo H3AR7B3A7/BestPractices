@@ -427,8 +427,51 @@ Facts:
 - Concurrency bugs aren't usually repeatable and are often ignored as one-offs instead of a defect
 - Concurrency often requires a fundamental change in design strategy
 
+
 ### Concurrency Defense Principles
 
+Principles for defending code from concurrency problems:
+- Single responsibility principle
+- Limiting the scope of data
+  - Encapsulation of shared data
+  - Limiting access to shared data
+- Use copies of data (preventing shared data)
+- Keep threads as independent as possible
+
+*Attempt to partition data into independent subsets that can be operated on by independent threads, possibly in different processors.*
+
+
+### Know Your Libraries
+
+- java.util.concurrent
+- java.util.concurrent.atomic
+- java.util.concurrent.locks
+
+Some interesting subjects to know about:
+- Thread safe collections
+- Executor framework
+- Thread unsafe library classes
+- Use non-blocking solutions when possible
+- Reentrantlock
+- Semaphore
+- CountDownLatch
+
+
+### Know Your Execution Models
+
+Problems:
+- Bound resources
+- Mutual exclusion
+- Starvation
+- Deadlock
+- Livelock
+
+Execution models:
+- Producer-Consumer
+  - Bound resource: queue
+    - Producers add tasks to queue and signal it is no longer empty
+    - Consumers read from the queue and signal it is no longer empty
+- Readers-Writers
 
 
 
