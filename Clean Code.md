@@ -472,6 +472,45 @@ Execution models:
     - Producers add tasks to queue and signal it is no longer empty
     - Consumers read from the queue and signal it is no longer empty
 - Readers-Writers
+  - Preventing simultaneous reading and updating
+    - Finding balance to provide reasonable throughput and prevent starvation
+- Dining Philosophers
+  - Systems in which threads compete for resources need to be carefully designed to prevent issues
+    - Throughput
+    - Deadlock
+    - Livelock
+
+
+### Dependencies Between Synchronized Methods
+
+*Avoid using more than one method on a shared object.*
+
+When we use more than one method on a shared object:
+- Client-Based Locking
+- Server-Based Locking
+- Adapted Server
+
+
+### Keep Synchronized Sections Small
+
+*Keep critical sections few and small.*
+
+The locks in synchronized blocks create overhead and delays which need to be avoided.
+We want to keep these blocks small and concise when we need them.
+
+
+### Shut-Down Code
+
+Writing graceful shut-down code is hard.
+
+Threads waiting for signals to continue that never come can lead to deadlock.
+Threads working in pairs might be unable to receive shut-down signals waiting for a signal of its partner.
+
+*Think about shut-down early and get it working early. It's going to take longer than you expect.
+Review existing algorithms, because this is probably harder than you think.*
+
+
+## Testing Threaded Code
 
 
 
