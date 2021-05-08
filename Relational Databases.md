@@ -56,7 +56,20 @@ Advantages:
     - Ntext: Unicode; 1-1,073,741,823 characters (2Char Bytes) Deprecated
     - Nvarchar(max) : Unicode; 1-1,073,741,823 characters (2Char Bytes)
 - Binary strings
+    - Binary: For consistent sizes
+    - Varbinary: For varying sizes
+    - Varbinary(max): For more than 8000 bytes
 - Other data types
+    - Cursor
+    - Geography
+    - Geometry
+    - Hierarchyid
+    - Rowversion
+    - Sql_variant
+    - Table
+    - Uniqueidentifier: Unique value using NEWID or NEWSEQUENTIALID
+    - Xml: XML data
+
 
 
 ## Relational Keys
