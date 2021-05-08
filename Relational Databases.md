@@ -24,6 +24,41 @@ Advantages:
 - Primary / Foreign Keys
 
 
+## Fields
+- Exact numeric
+    - Bit: 0 - 1 (1/8 Byte)
+    - Tinyint: 0 - 255 (1 Byte)
+    - Smallint: -32,768 - 32,767 (2 Bytes)
+    - Int: -2,147,483,648 - 2,147,483,647 (4 Bytes)
+    - Bigint: -9,223,372,036,854,775,808 - 9,223,372,036,854,775,807 (8 Bytes)
+    - Decimal(p,s): p = precision, s = scale (5-17 Bytes)
+    - Smallmoney: -214,748.3648 - 214,748.3647 (4 Bytes)
+    - Money: -922,337,203,685,477.5808 - 922,337,203,685,477.5807 (8 Bytes)
+- Approximate numeric
+    - Float([n]): n=1-24: 7 digits precision (4 Bytes)
+    - Float([n]): n=25-53: 15 digits precision (8 Bytes)
+    - Real: [=float(24)] (4 Bytes)
+- Date & time
+    - Date: Year 1 - 9999 (3 Bytes)
+    - Datetime: 0.003s, Year 1753 - 9999 (8 Bytes)
+    - Datetime2(n): 0.000,000,1s, Year 1 - 9999 (6-8 Bytes)
+    - Datetimeoffset(n): 0.000,000,1s with offset between -12:59 to +14:00, Year 1 - 9999 (8-10 Bytes)
+    - Smalldatetime: Nearest minute, Year 1900 – 2079 (4 Bytes)
+    - Time(n): 0.000,000,1s (3-5 Bytes)
+- Character strings
+    - Char(n): UTF-8; 1-8000 characters (n Bytes)
+    - Varchar(n): UTF-8; 1-8000 characters (Char + 2 Bytes)
+    - Text: UTF-8; 1-2,147,483,647 characters (variable) Deprecated
+    - Varchar(max): UTF-8; 1-2,147,483,647 characters (variable)
+- Unicode character strings
+    - Nchar(n): Unicode; 1-4000 characters (2n Bytes)
+    - Nvarchar(n) : Unicode; 1-4000 characters (2Char + 2 Bytes)
+    - Ntext: Unicode; 1-1,073,741,823 characters (2Char Bytes) Deprecated
+    - Nvarchar(max) : Unicode; 1-1,073,741,823 characters (2Char Bytes)
+- Binary strings
+- Other data types
+
+
 ## Relational Keys
 
 - **Superkey**: any combination of columns that uniquely identify a row in a table
