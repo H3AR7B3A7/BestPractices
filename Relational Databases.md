@@ -69,8 +69,7 @@ Advantages:
     - Table
     - Uniqueidentifier: Unique value using NEWID or NEWSEQUENTIALID
     - Xml: XML data
-
-
+  
 
 ## Relational Keys
 
