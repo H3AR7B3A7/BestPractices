@@ -512,6 +512,27 @@ Review existing algorithms, because this is probably harder than you think.*
 
 ## Testing Threaded Code
 
+Testing only minimizes risk for incorrect behaviour.
+
+*Write tests that have the potential to expose problems and run them frequently with different programmatic/system configurations and load.
+If tests ever fail, track down the failure. Don't ignore failure because tests pass on a second subsequent run.*
+
+- Treat spurious failures as candidate threading issues
+- Get non-threaded code to work first
+- Make threaded code pluggable
+  - One / several / varying number of threads
+  - Interacting with real objects / test doubles
+    - Force different orderings by using: object.wait(), .sleep(), .yield(), priority()
+      - Hand coded
+      - Automated: CGLIB, ASM, ... (Thread jiggling strategies)
+  - Varying number of iteration
+- Make threaded code tunable
+  - Time performance early under different configurations
+  - Consider allowing self-tuning in runtime
+- Run with more threads than processors
+- Run on different platforms
+- Instrument your code to try and force failures
+
 
 
 
