@@ -534,6 +534,86 @@ If tests ever fail, track down the failure. Don't ignore failure because tests p
 - Instrument your code to try and force failures
 
 
+## Smells and Heuristics
+
+Comments:
+- Inappropriate information
+- Obsolete comment
+- Redundant comment
+- Commented-out code
+
+Environment:
+- Build requiring multiple steps
+- Tests requiring multiple steps
+
+Functions:
+- Too many arguments
+- Output arguments
+- Flag arguments
+- Dead functions
+
+General:
+- Multiple languages in one source file
+- Obvious behaviour is unimplemented
+- Incorrect behaviour in the boundaries
+- Overridden safeties
+- Duplication
+- Code at wrong level of abstraction
+- Base classes depending on their derivatives
+- Too much information
+- Dead code
+- Vertical separation
+- Inconsistency
+- Clutter
+- Artificial coupling
+- Feature envy
+- Selector arguments
+- Obscured intent
+- Misplaced responsibility
+- Inappropriate static
+- Use explanatory variables
+- Function names should say what they do
+- Understand the algorithm
+- Make logical dependencies physical
+- Prefer polymorphism to if/else or switch/case
+- Follow standard conventions
+- Replace magic numbers with named constants
+- Be precise
+- Structure over convention
+- Encapsulate conditionals
+- Avoid negative conditionals
+- Functions should do one thing
+- Hidden temporal couplings
+- Don't be arbitrary
+- Encapsulate boundary conditions
+- Functions should descend only one level of abstraction
+- Keep configurable data at high levels
+- Avoid transitive navigation
+
+Java:
+- Avoid long import lists by using wildcards
+- Don't inherit constants
+- Prefer enums to constants
+
+Names:
+- Choose descriptive names
+- Choose names at the appropriate level of abstraction
+- Use standard nomenclature where possible
+- Unambiguous names
+- Use long names for long scopes
+- Avoid encodings
+- Names should describe side effects
+
+Tests:
+- Insufficient tests
+- Use a coverage tool
+- Don't skip trivial tests
+- An ignored test is a question about ambiguity
+- Test boundary conditions
+- Exhaustively test near bugs
+- Patterns of failure are revealing
+- Test coverage patterns can be revealing
+- Tests should be fast
 
 
 
