@@ -139,8 +139,9 @@ Importance of knowing about good design:
 **Normalization** is the process of organizing the columns and tables of a relational database to reduce data redundancy and improve data integrity.
 
 - **First normal form (1NF)**:
-    - Doesn’t contain duplicate rows
+    - Does not contain duplicate rows
     - Every cell contains only one value
+    - Every value is atomic (indivisible)
 - **Second normal form (2NF)**:
     - 1NF
     - Every non-prime attribute of the table is dependent on the whole of every candidate key
