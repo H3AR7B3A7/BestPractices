@@ -148,9 +148,17 @@ Importance of knowing about good design:
 - **Third normal form (3NF)**:
     - 2NF
     - Every non-prime attribute is non-transitively dependent on every candidate key
+- **Fourth normal form (4NF)**:
+  - 3NF
+  - There should be no multi-valued dependency
+- **Fifth normal form (5NF)**:
+  - 4NF
+  - There should be no join dependency
 
-The higher the normal form the better:
+In general the higher the normal form the better:
 - Less prone to errors
 - Faster adding of records in database
 
-*We can improve normalization by splitting the table in multiple tables.*
+We can improve normalization by splitting the table in multiple tables.
+
+*In practice, everything above the 3d normal form often just makes things more complex rather than less. For this reason we usually want to normalize our tables to the 3d normal form. Except for with data warehouses that are mostly read-only. For data-warehouses the 1st normal form is faster to query.*
