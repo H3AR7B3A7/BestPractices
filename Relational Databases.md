@@ -81,6 +81,13 @@ Advantages:
 - **Foreign key**: An attribute, or set of attributes, within one relation that matches the candidate key of some other relation
 
 
+## Relations
+
+- One-to-One
+- One-to-Many
+- Many-to-many
+
+
 ## Relational Database
 
 A set of tables that satisfy following data integrity:
