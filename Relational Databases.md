@@ -176,9 +176,18 @@ We can improve normalization by splitting the table in multiple tables.
 
 ## DDL
 *Data Definition Language*
-- CREATE TABLE
-- ALTER TABLE
-- DROP TABLE
+- CREATE
+- ALTER
+- DROP
+- ...
+
+Objects:
+- TABLE
+- COLUMN
+- VIEW
+- PROC	(Stored procedure)
+- FUNCTION
+- TRIGGER
 - ...
 
 
