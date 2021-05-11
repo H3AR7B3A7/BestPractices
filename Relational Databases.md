@@ -208,3 +208,5 @@ The drawback is that updating indexes can slow down the entirety of the database
 - Unique clustered index
 - Clustered index
 - Non – clustered index
+
+There can only be one clustered index, but many non-clustered indexes.
