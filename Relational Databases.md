@@ -162,3 +162,34 @@ In general the higher the normal form the better:
 We can improve normalization by splitting the table in multiple tables.
 
 *In practice, everything above the 3d normal form often just makes things more complex rather than less. For this reason we usually want to normalize our tables to the 3d normal form. Except for with data warehouses that are mostly read-only. For data-warehouses the 1st normal form is faster to query.*
+
+
+## DML
+*Data Manipulation Language*
+- SELECT
+- INSERT
+- UPDATE
+- DELETE
+- MERGE
+- ...
+
+
+## DDL
+*Data Definition Language*
+- CREATE TABLE
+- ALTER TABLE
+- DROP TABLE
+- ...
+
+## ACID
+- Atomic: Transactions are units
+- Consistency: Transactions are reliable
+- Isolation: Transactions are independent
+- Durability: Once saved, transactions are persistent
+
+All transactions are implicitly placed between TRAN statements:
+```
+BEGIN TRAN
+...
+COMMIT TRAN
+```
