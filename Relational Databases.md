@@ -200,3 +200,11 @@ BEGIN TRAN
 ROLLBACK TRAN
 ```
 We can change ‘rollback’ to a commit when we know the right number of rows are affected.
+
+## Indexes
+
+*Indexes allow your database to seek for values instead of scanning for them, which can drastically speed up statements using the WHERE clause.
+The drawback is that updating indexes can slow down the entirety of the database. Indexes can increase the overall performance of our database, when used correctly.*
+- Unique clustered index
+- Clustered index
+- Non – clustered index
