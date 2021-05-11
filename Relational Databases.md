@@ -181,6 +181,7 @@ We can improve normalization by splitting the table in multiple tables.
 - DROP TABLE
 - ...
 
+
 ## ACID
 - Atomic: Transactions are units
 - Consistency: Transactions are reliable
@@ -200,6 +201,7 @@ BEGIN TRAN
 ROLLBACK TRAN
 ```
 We can change ‘rollback’ to a commit when we know the right number of rows are affected.
+
 
 ## Indexes
 
