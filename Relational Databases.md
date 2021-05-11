@@ -193,3 +193,10 @@ BEGIN TRAN
 ...
 COMMIT TRAN
 ```
+When we are updating data we might want to place our statement between:
+```
+BEGIN TRAN
+...
+ROLLBACK TRAN
+```
+We can change ‘rollback’ to a commit when we know the right number of rows are affected.
