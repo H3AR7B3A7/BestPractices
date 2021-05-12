@@ -3,6 +3,7 @@
 Various documentations on best practices in software development.
 
 ### Summaries:
+
 - [Solid Principles](SOLID.md)
 
 - [Clean Code](Clean%20Code.md)  
@@ -12,3 +13,9 @@ Various documentations on best practices in software development.
     (Domain Driven Design by E. Evans)
 
 - [Relational Database Design](Relational%20Databases.md)
+
+- [Agile](Agile.md)  
+    (Agile Project Management by M.C. Layton & S.J. Ostermiller)
+
+- [Scrum](Scrum.md)  
+    (Scrum by M.C. Layton & D. Morrow)
