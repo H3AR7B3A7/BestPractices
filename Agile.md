@@ -187,7 +187,30 @@ making any changes would be harder and more expensive.
 *Agile development is not only faster, but allows for early detection of failure.
 Providing opportunity to fix problems early and reduce the costs to do so.*
 
+### Return On Investment (ROI)
 
+- Functionality is delivered to the marketplace earlier
+- Product quality is higher
+- Revenue opportunity can be accelerated
+- Projects can self-fund
+
+### Strategies Reducing Wasted Time
+
+- Just-in-time elaboration
+- Customer and stakeholder participation
+- A bias for face-to-face conversation
+- Built-in exploitation of change
+- Emphasis on the evidence of working functionality
+
+### Development Team Benefits
+
+- A clear definition of success
+- The power and respect to self-organize
+- Customer feedback they need to provide value
+- Protection from disruptions
+- A humane, sustainable pace of work
+- A culture of learning that support both personal development and project improvement
+- A structure that minimizes non-development time
 
 
 
