@@ -212,5 +212,42 @@ Providing opportunity to fix problems early and reduce the costs to do so.*
 - A culture of learning that support both personal development and project improvement
 - A structure that minimizes non-development time
 
+## Agile Practices
+
+Different approaches:
+- Lean
+- Scrum
+- Extreme programming
+- ...
+
+### Lean
+
+*Methodology with roots in manufacturing processes as implemented by Toyota.*
+
+Principles:
+- Eliminate waste
+- Amplify learning
+- Deliver as late as possible
+- Deliver as fast as possible
+- Empower the team
+- Build quality in
+- See the whole
+
+### Kanban
+
+*Kanban is a method for removing waste to improve flow and throughput in a system.*
+
+Practices:
+- Visualize
+- Limit work in progress
+- Manage flow
+- Make process policies explicit
+- Implement feedback loops
+- Improve collaboratively, evolve experimentally
+
+![Kanban](Kanban.png)
+
+
+
 
 
