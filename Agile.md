@@ -275,7 +275,57 @@ Events:
 
 ### Extreme Programming
 
+Principles:
+- Coding is the core activity
+- Lots of testing
+- Direct communication between programmer and customer
+- Complex systems require some level of overall design, beyond any specific function
+
+Practices:
+- **Planning Game**  
+  No disconnect between business and technical people
+- **Whole Team**  
+  Customer is collocated with the development team
+- **Coding Standards**  
+  Standard code identifiers and naming conventions
+- **System Metaphor**  
+  Use of an implied comparison, a simple story
+- **Collective Code Ownership**  
+  Anyone can modify/improve any code
+- **Sustainable Pace**  
+  Avoid mistakes by avoiding working more than 40h / week
+- **Pair Programming**  
+  Strategic driver and tactical navigator pairs
+- **Design Improvement**  
+  Continuously refactor
+- **Simple Design**  
+  Keep the cost of changes low
+- **TDD**  
+  Red-Green-Clean
+- **Continuous Integration**  
+  Integrate code timely and avoid compounding problems
+- **Small Releases**  
+  Release value to customer often, avoiding extensive regression and integration efforts
+
 ![Extreme Programming](ExtremeProgramming.png)
 
+### Additional Powerful Tools
+
+- **Product Vision Statement**  
+  Gives direction for outer boundary of the project
+- **Product Roadmap**  
+  Required features for project vision
+- **Velocity**  
+  Tool to predict delivery of functionality
+- **Release Planning**  
+  Mid-range functionality goals/releases
+- **User Stories**
+  Requirements through end-user's point of view, clarifying business value
+- **Relative Estimation**  
+  Using relative complexity and effort rather than absolute measures
+- **Swarming**  
+  Cross-functional teams working together on a requirement
+
+## The Physical Environment
 
 
