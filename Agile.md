@@ -114,6 +114,7 @@ Additional 3 'platinum' principles:
   - Using models instead of text to communicate concepts
   - Reporting project status through charts, graphs and dashboards
   
+
 ## Agile vs Historical Approaches
 
 *In Agile development cost and schedules are fixed. It is the scope that is variable.*
@@ -215,6 +216,7 @@ Providing opportunity to fix problems early and reduce the costs to do so.*
 - A humane, sustainable pace of work
 - A culture of learning that support both personal development and project improvement
 - A structure that minimizes non-development time
+
 
 ## Agile Practices
 
@@ -326,6 +328,50 @@ Practices:
 - **Swarming**  
   Cross-functional teams working together on a requirement
 
-## The Physical Environment
+
+## The Environment
+
+Why collocating the team is important:
+- Face-to-face communication
+- Scrum meetings standing up, to keep them brief and on topic
+- Using low-tech tools for communication
+- Getting real-time clarifications from scrum team members
+- Being aware of what others are working on
+- Asking for help with tasks
+- Supporting others with their tasks
+
+### Dedicated Project / Scrum Room
+
+- Central collaboration area or table
+- Whiteboards and bulletin boards
+- Open workspaces (around the edges)
+- Remove distractions
+- Mobile furniture (desks, laptops, whiteboards, ...)
+
+*Avoid cubical arrangements, or be creative to create a scrum room out of a couple of them.*
+
+### Common Distractions
+
+- Multiple projects
+- Multitasking
+- Over-supervising
+- Outside influence
+- Management
+
+### In Absence of Collocation
+
+- Videoconferences
+- Instant messaging
+- Web-based desktop sharing
+- Collaborating websites
+
+### Tools
+
+*Tools should solve a specific problem and push forward with the work.
+They should be as simple and straight forward as possible and not feel like an additional layer of complexity.
+Needs for these tools will emerge naturally from the scrum team.*
+
+
+## Behaviour
 
 
