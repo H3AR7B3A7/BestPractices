@@ -126,13 +126,17 @@ Additional 3 'platinum' principles:
 - Designers
 - Project stakeholders
 - Product owner
-- Agile coach / Scrum master
+- Agile coach
+- Scrum master
 
 The **product owner** is a project team member who is an expert on the product and the customer's business needs.
 They prioritize product requirements and is available to provide daily clarifications and final acceptance to the development team.
 
-The **Agile coach** acts as a buffer between the development team and distractions that slow down development effort.
-They provide expertise on agile processes and facilitate consensus building and stakeholder communication.
+The **Scrum master** acts as a buffer between the development team and distractions that slow down development effort.
+They ensure that scrum is played properly and continuously improves the team's environment.
+
+The **Agile coach** provides expertise on agile processes and facilitate consensus building and stakeholder communication.
+Often this person is external to the projects department, offering an outsiders point of view.
 
 ### Sprints
 
@@ -215,7 +219,7 @@ Providing opportunity to fix problems early and reduce the costs to do so.*
 ## Agile Practices
 
 Different approaches:
-- Lean
+- Lean (Kanban)
 - Scrum
 - Extreme programming
 - ...
@@ -227,18 +231,18 @@ Different approaches:
 Principles:
 - Eliminate waste
 - Amplify learning
-- Deliver as late as possible
+- Deliver as late as possible (allowing for late adaptation)
 - Deliver as fast as possible
 - Empower the team
-- Build quality in
-- See the whole
+- Build quality in (correcting defects when they happen)
+- See the whole (solving problems, not symptoms)
 
 ### Kanban
 
-*Kanban is a method for removing waste to improve flow and throughput in a system.*
+*Kanban (Japanese for 'visual signal') is a method for removing waste to improve flow and throughput in a system.*
 
 Practices:
-- Visualize
+- Visualize (to help identify waste)
 - Limit work in progress
 - Manage flow
 - Make process policies explicit
@@ -246,6 +250,30 @@ Practices:
 - Improve collaboratively, evolve experimentally
 
 ![Kanban](Kanban.png)
+
+### Scrum
+
+*Scrum is an iterative approach with the 'sprint' at its core.*
+
+- Daily scrum meeting reviewing yesterday's work and planning for today's
+- Constant inspections to assess the progress towards the sprint goal
+- A retrospective at the end of a sprint to assess performance
+
+![img.png](Scrum.png)
+
+Artifacts:
+- Product backlog
+- Sprint backlog
+- Product increment
+
+Events:
+- Sprint planning
+- Daily scrum
+- Sprint
+- Sprint review
+- Sprint retrospective
+
+### Extreme Programming
 
 
 
