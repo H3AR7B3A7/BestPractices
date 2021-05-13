@@ -259,7 +259,7 @@ Practices:
 - Constant inspections to assess the progress towards the sprint goal
 - A retrospective at the end of a sprint to assess performance
 
-![img.png](Scrum.png)
+![Scrum](Scrum.png)
 
 Artifacts:
 - Product backlog
@@ -275,7 +275,7 @@ Events:
 
 ### Extreme Programming
 
-
+![Extreme Programming](ExtremeProgramming.png)
 
 
 
