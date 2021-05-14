@@ -528,3 +528,43 @@ Requirements and results of the right philosophy:
 
 ![Roadmap To Value](RoadmapToValue.png)
 
+### Progressive Elaboration
+
+Planning only as much as you need to: 
+- Widely and holistically at first
+- More detailed only just-in-time
+  - Inspect
+  - Adapt
+
+### The Product Vision Statement
+
+Four steps:
+- Develop the product objective
+- Create a draft vision statement
+- Validate the vision statement with product and project stakeholders and revise it based on feedback
+- Finalize the vision statement
+
+![Moore's Template](GeoffreyMooreTemplate.png)
+
+### The Product Roadmap
+
+Five steps:
+- Identify stakeholders
+- Establish product requirements and add them to the roadmap
+- Arrange the product requirements based on values
+- Estimate the development effort at a high-level and prioritize the product requirements
+- Determine high-level time frames for releasing groups of functionality to the customer
+
+
+### The Product Backlog
+
+Including:
+- A description of each requirement
+- The order of requirements based on priority
+- The effort estimates
+- The type of backlog item
+- A status
+
+
+## Planning Releases and Sprints
+
