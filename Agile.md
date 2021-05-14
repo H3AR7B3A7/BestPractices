@@ -458,4 +458,73 @@ What makes a good scrum master:
   - Ensures everyone has the information they need
   - Truly desires to help the scrum team
 
+### Stakeholders
+
+Can include:
+- Customer
+- Infrastructure architects / system administrators
+- Legal department / account managers / salespeople / marketing experts / customer service representatives
+- Other product or subject-matter experts
+
+### Agile Mentor
+
+- Serves in a mentoring role only and isn't part of the scrum team
+- Is often a person from outside the organization
+  - Can provide objective guidance
+  - Has no personal or political considerations
+- Is an agile expert with significant experience in implementing agile techniques
+
+### Values
+
+Five core values for scrum teams:
+- Commitment
+- Courage
+- Focus
+- Openness
+- Respect
+
+### Team Philosophy
+
+Requirements and results of the right philosophy:
+- Dedicated team
+  - More accurate release projections
+  - Effective, short iterations
+  - Fewer and less costly defects
+- Cross-functionality
+  - Setting aside the narrow label of what he/she can do
+  - Working to expand skills
+  - Stepping up to help someone who has run into a roadblock
+  - Being flexible
+- Self-organization
+  - Commitment to sprint goals
+  - Identifying of tasks
+  - Estimating the effort necessary for requirements and related tasks
+  - Focus on communication
+  - Collaboration
+  - Decisions with consensus
+  - Active participation
+- Self-management
+  - Allows leadership to ebb and flow
+  - Relying on agile processes and tools managing the work
+  - Regular and transparent reporting
+  - Issues managed within the development team
+  - Creation of team agreements
+  - Inspection and adaptation
+- Size-limited teams
+  - Encourages diverse skills to be developed
+  - Facilitates good team communication
+  - Maintains the team in a single unit
+  - Promotes joined code ownership
+  - Promotes face-to-face communication
+- Ownership
+  - Taking initiative
+  - Succeeding and failing as a team
+  - Trusting the ability to make good decisions
+
+
+## Defining Product Vision and Roadmap
+
+*Agile projects involve planning upfront and throughout the entire project.*
+
+![Roadmap To Value](RoadmapToValue.png)
 
