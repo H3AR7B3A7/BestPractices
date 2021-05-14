@@ -374,4 +374,88 @@ Needs for these tools will emerge naturally from the scrum team.*
 
 ## Behaviour
 
+*The product owner, development team and scrum master together make up the scrum team.
+Each role is a peer to the others - no one is the boss of anyone on the team.*
+
+![Project Team](ProjectTeam.png)
+
+### Product Owner
+
+*The product owner takes on a great responsibility during the project. Although the product sponsor
+funds and owns the budget, the product owner manages how the budget is spent.*
+
+What makes a good product owner:
+- Develops strategy and direction and sets long- / short- term goals
+  - Envisions completed product
+  - Understands company strategy
+- Provides or has access to product expertise
+  - Worked with similar products in the past
+  - Understands the needs of end-users
+- Understands and conveys stakeholder needs
+  - Understands relevant business processes
+  - Creates a solid customer input feedback channel
+  - Works well with business stakeholders
+- Gathers, prioritizes and manages product requirements
+  - Is decisive
+  - Focuses on efficiency
+  - Remains flexible
+  - Turns stakeholder feedback into valuable customer-focused functionality
+  - Is practical about prioritizing financially valuable features, high-risk features and strategic system improvements
+  - Shields the development team from distractions
+- Takes responsibility for the product's budget and profitability
+  - Understands what features deliver the best ROI
+  - Manages budgets effectively
+- Decides when to release completed functionality
+  - Understands business needs regarding timelines
+- Works with the development team, answering daily questions and makes decisions
+  - Is accessible
+  - Works well with developers
+  - Adeptly describes product features
+  - Understands requirements and ensures completed features work correctly
+- Presents the scrum team's accomplishments before the development team demonstrates them
+  - Is good at framing the value and accomplishments from the scrum team
+
+### Development Team Member
+
+What makes a good developer:
+- Directly accountable for creating project deliverables
+  - Enjoys creating products
+  - Is skilled in more than one of the jobs necessary to create the product
+- Self-organizing and self-managing
+  - Exudes initiative and independence
+  - Understands how to work through impediments to achieve goals
+  - Coordinates the work to be done with the rest of the team
+- Cross-functional (elaborate, design, develop, test, integrate and document working functionality)
+  - Has curiosity
+  - Willingly contributes to areas outside his or her mastery
+  - Enjoys learning new skills
+  - Enthusiastically shares knowledge
+- Multi-skilled (contribute, learn and teach)
+- Dedicated to one project
+- Collocated
+
+### Scrum Master
+
+*Don't underestimate the value of a scrum master with clout. Clout is not the same thing as authority.
+It is earned through: expertise, longevity, charisma and associations.*
+
+What makes a good scrum master:
+- Acts as a process coach, helps to organise and follow scrum values
+  - Is an expert on scrum processes
+  - Is passionate about agile techniques
+- Helps remove project impediments
+  - Has organizational clout and can resolve problems quickly
+  - Is articulate, diplomatic and professional
+  - Is a good listener
+  - Is firm about the development team's need to focus only on the current sprint
+- Fosters close cooperation between stakeholders and scrum team
+  - Looks at the needs of the project as a whole
+  - Avoids cliques and helps break down group silo's
+- Facilitates consensus building within the scrum team
+  - Understands techniques to help groups reach agreements
+- Protects the scrum team from organizational distractions
+  - Doesn't feel the need to be in charge
+  - Ensures everyone has the information they need
+  - Truly desires to help the scrum team
+
 
