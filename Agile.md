@@ -663,5 +663,52 @@ The sprint backlog usually contains a little more detail than the project backlo
 
 A **burndown chart** shows the status of the work the development team has completed.
 
+
 ## Working Throughout The Day
+
+*On Agile projects, you make plans throughout the entire project and on a daily basis.*
+
+### Daily Scrum Meeting
+
+Each development team member:
+- "Yesterday, I completed..." (completed items)
+- "Today, I'm going to take on..." (task)
+- "My impediments are..."
+
+The scrum master:
+- "Yesterday, I resolved to..." (completed impediments)
+- "Today, I'm going to work on removing..." (impediment)
+- "The impediments I'm going to escalate are..." (impediments needing assistance)
+
+Guidelines:
+- Anyone may attend, but only the development team, the scrum master, and the product owner may talk
+- The focus is on immediate priorities
+- They are for coordination, not problem-solving
+  - Issues go on a whiteboard
+  - An after-party with the people involved can address them when the meeting is over
+- Peer-to-peer coordination, not status reports
+- Starts on time
+- Usually standing up
+  
+### Tracking progress
+
+*Sprint backlog and burndown chart should be available for everyone.*
+
+**Burndown Chart**:
+- The outstanding work (in hours) on the first vertical axis
+- Time in days on the horizontal axis
+- Story points remaining on a second vertical axis
+
+### The Task Board
+
+Minimum number of columns:
+- To Do
+- In Progress
+- Accept
+- Done
+
+Items 'In Progress' should be kept to a minimum at all times.  
+Only the product owner can move user stories to 'Done'
+
+
 
