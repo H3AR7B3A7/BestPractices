@@ -603,6 +603,22 @@ To better connect with the end-user we create personas representing different po
 
 ### Estimation Poker
 
+*A popular way of estimating user stories is by playing estimation poker.*
+
 ![Estimation Poker](img/EstimationPoker.png)
+
+- Each member of the development team gets a deck.
+- A reference user story representing a '5' is agreed upon.
+- A high priority user story is selected
+- All members select their relative estimation using the deck
+- All cards are presented simultaneously
+- Differences in estimation are discussed
+- This repeats for the remaining user stories
+
+*Anything bigger than an 8 or 13 should not be allowed in a sprint and needs to be split up.*
+
+
+### Affinity Estimating
+
 
 
