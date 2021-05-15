@@ -119,7 +119,7 @@ When designing an efficient database that avoids redundancy, identifying depende
         - Where: A-Key = B-Key
         - Where: A-Key = NULL OR B-Key = NULL
 
-![img](SQL-Joins.png)
+![img](img/SQL-Joins.png)
 
 - **Self Join**: Used to join a table to itself as if it were two tables, temporarily renaming at least one table in the SQL statement
 - **Cartesian Join (Cross Join)**: Cartesian product of the sets of records from the two or more joined tables
