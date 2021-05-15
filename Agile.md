@@ -749,7 +749,47 @@ The Scrum master:
 
 ### Creating Shippable Functionality
 
+Development team and product owner:
+- Elaborating
+- Developing
+  - Pairing up
+  - Following agreed-upon design standards
+  - Start with automated test
+  - Adding nice-to-have features to backlog
+  - Integrate changes one at a time
+- Verifying
+  - Automated testing
+    - Unit
+    - System
+    - Static
+  - Peer reviews
+  - Product owner reviews
 
+### Roadblocks
+
+Some examples:
+- Tactical
+  - A manager trying to pull away a team member to work on something else
+  - The development team needing additional hardware or software to facilitate progress
+  - A team member who doesn't understand a user story in absence of the product owner
+- Strategical
+  - An overall resistance to Agile techniques, especially when a company established and maintained prior processes at significant cost
+  - Managers not in touch with work on the ground, methodologies are ever progressing
+  - External departments not familiar with scrum needs and the pace of development when using Agile techniques
+  - An organization enforcing policies that don't make sense for Agile projects
+    - Centralized tools
+    - Budget restrictions
+    - Standardized processes that don't align
+
+### Days End
+
+- Reporting task progress
+- Updating sprint backlog (with amount of work remaining)
+- Product owner updates task board
+- The scrum master reviews the sprint backlog
+
+
+## Showcasing, Inspecting and Adapting
 
 
 
