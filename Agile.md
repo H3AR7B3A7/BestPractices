@@ -119,7 +119,7 @@ Additional 3 'platinum' principles:
 
 *In Agile development cost and schedules are fixed. It is the scope that is variable.*
 
-![Waterfall vs Agile](WaterfallVsAgile.png)
+![Waterfall vs Agile](img/WaterfallVsAgile.png)
 
 ### Agile Project Team
 - Developers
@@ -146,7 +146,7 @@ While some features might not yet be implemented, the product will always have u
 Historical approaches often require the project to be finished before adding any value to the customer and at this point 
 making any changes would be harder and more expensive.
 
-![img.png](WaterfallVsAgile2.png)
+![img.png](img/WaterfallVsAgile2.png)
 
 *Working in sprints provides areas of project stability, while also allowing for regular change.*
 
@@ -251,7 +251,7 @@ Practices:
 - Implement feedback loops
 - Improve collaboratively, evolve experimentally
 
-![Kanban](Kanban.png)
+![Kanban](img/Kanban.png)
 
 ### Scrum
 
@@ -261,7 +261,7 @@ Practices:
 - Constant inspections to assess the progress towards the sprint goal
 - A retrospective at the end of a sprint to assess performance
 
-![Scrum](Scrum.png)
+![Scrum](img/Scrum.png)
 
 Artifacts:
 - Product backlog
@@ -309,7 +309,7 @@ Practices:
 - **Small Releases**  
   Release value to customer often, avoiding extensive regression and integration efforts
 
-![Extreme Programming](ExtremeProgramming.png)
+![Extreme Programming](img/ExtremeProgramming.png)
 
 ### Additional Powerful Tools
 
@@ -377,7 +377,7 @@ Needs for these tools will emerge naturally from the scrum team.*
 *The product owner, development team and scrum master together make up the scrum team.
 Each role is a peer to the others - no one is the boss of anyone on the team.*
 
-![Project Team](ProjectTeam.png)
+![Project Team](img/ProjectTeam.png)
 
 ### Product Owner
 
@@ -526,7 +526,7 @@ Requirements and results of the right philosophy:
 
 *Agile projects involve planning upfront and throughout the entire project.*
 
-![Roadmap To Value](RoadmapToValue.png)
+![Roadmap To Value](img/RoadmapToValue.png)
 
 ### Progressive Elaboration
 
@@ -544,7 +544,7 @@ Four steps:
 - Validate the vision statement with product and project stakeholders and revise it based on feedback
 - Finalize the vision statement
 
-![Moore's Template](GeoffreyMooreTemplate.png)
+![Moore's Template](img/GeoffreyMooreTemplate.png)
 
 ### The Product Roadmap
 
@@ -567,4 +567,42 @@ Including:
 
 
 ## Planning Releases and Sprints
+
+*A clear and effective format for defining product requirements is the user story.*
+
+### User Story
+
+Includes:
+- Title
+- "As a..." (type of user)
+- "I want to..." (desired action)
+- "So that..." (reason or achieved benefit)
+- "When I..." (action taken) (desired behaviour)
+
+Also:
+- ID
+- Value and effort estimate
+- Creator
+
+Knowing the end users and the stakeholders intentions are key to creating these user stories.
+To better connect with the end-user we create personas representing different potential customers.
+
+**Decomposing User Stories**:
+- Theme
+  - Features
+    - Epic user stories
+      - User stories
+
+**The INVEST approach to user stories**:
+- Independent
+- Negotiable
+- Valuable
+- Estimable
+- Small
+- Testable
+
+### Estimation Poker
+
+![Estimation Poker](img/EstimationPoker.png)
+
 
