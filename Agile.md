@@ -617,8 +617,51 @@ To better connect with the end-user we create personas representing different po
 
 *Anything bigger than an 8 or 13 should not be allowed in a sprint and needs to be split up.*
 
-
 ### Affinity Estimating
 
+Facing a lot of user stories a faster approach might be preferred, by grouping up user stories by size.
 
+Groups:
+- Extra-small (1)
+- Small (2)
+- Medium (3)
+- Large (5)
+- Extra-large (8)
+- Epic and too large for a sprint (13+)
+- Needs clarification before estimating
+
+Placing a user story in a group should take no longer than 60s.
+30min/ 100 user stories to adjust groups can help straighten things out.
+
+### Release Planning
+
+*A release is a group of usable product features that you deploy to the market.*
+
+- Establish the release goal
+- Identify a target release date
+- Review the product backlog and product roadmap to determine the highest-priority user stories that support the release goal (the minimum marketable features)
+- Refine the user stories in the release goal
+- Estimate the number of sprints needed, based on the scrum team's velocity
+- Identify work necessary to release that can't be completed within a sprint, if necessary, and determine how long it should be
+
+Some scrum teams release functionality for customer use with every sprint, or every day depending on circumstances.
+
+### Sprint Planning
+
+- Sprint planning at the beginning of the sprint
+  - Usually on monday
+  - Duration of +-2hours / length of sprint in weeks
+- Daily scrum meetings
+- Development time (the bulk of the sprint)
+- A sprint review and retrospective
+
+### Sprint Backlog
+
+*The sprint backlog is the list of user stories associated with the current sprint and related tasks.*
+
+The sprint backlog usually contains a little more detail than the project backlog that was added during the sprint plannings.
+
+A **burndown chart** shows the status of the work the development team has completed.
+
+## Working Throughout The Day
 
