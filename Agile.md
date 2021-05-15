@@ -710,5 +710,46 @@ Minimum number of columns:
 Items 'In Progress' should be kept to a minimum at all times.  
 Only the product owner can move user stories to 'Done'
 
+### Roles
+
+Members of the development team:
+- Select the tasks of the highest need and complete them as quickly as possible
+- Request clarification from the product owner when unclear about a user story
+- Collaborate with other development team members
+  - Design the approach to a specific user story
+  - Seek help when needed
+  - Provide help when a team member needs it
+- Conduct peer reviews
+- Take on tasks beyond your normal role as the sprint demands
+- Fully develop functionality as agreed to in the definition of done
+- Report on progress daily
+- Alert the scrum master to any roadblocks
+- Achieve the sprint goal, committed to during sprint planning
+
+The product owner:
+- Make investments required to keep development speed high
+- Prioritize product functionality
+- Represent the product stakeholders to the team
+- Report on cost and schedule to stakeholders
+- Elaborate on user stories
+- Provide immediate clarification and decisions
+- Remove business impediments
+- Review completed functionality and provide feedback
+- Add new user stories to the backlog, ensuring they support product vision and sprint/release goals
+- Elaborate user stories in readiness for the next sprint meeting
+
+The Scrum master:
+- Uphold Agile values, coaching the product owner, team and organization
+- Shield the development team from external distractions
+- Remove roadblocks
+  - Tactically for immediate problems
+  - Strategically for potential long-term issues
+- Facilitate concensus building
+- Build relationships to foster close cooperation with people working with the scrum team
+
+### Creating Shippable Functionality
+
+
+
 
 
