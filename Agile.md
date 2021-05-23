@@ -791,5 +791,153 @@ Some examples:
 
 ## Showcasing, Inspecting and Adapting
 
+### The Spring Review
 
+A meeting to review and demonstrate the developed functionality. 
 
+*Preparing for a sprint review meeting should only take a few minutes.
+If your sprint review is overly showy, you should ask yourself if you're covering up for not spending enough time developing.*
+
+Demonstrated code should be:
+- Developed
+- Tested
+- Integrated
+- Documented
+
+The demo provides the 3d stage of feedback:
+- Peer reviews
+- From product owner
+- **From stakeholders**
+- From customers
+
+The review meetIng:
+- No PowerPoint
+- For entire scrum team
+- Anyone interested may attend
+- Product owner introduces release goal
+- The development team demonstrates
+- The equipment used should mirror the target hardware if possible
+- Stakeholders ask questions and give feedback
+- No non-disclosed rigged functionality
+- The product owner can lead a discussion on what is coming next
+
+New user stories can emerge with either new functionality or changes to existing functionality.
+
+### The Retrospective
+
+A meeting in which the product owner, the development team, and the scrum master discuss how the sprint went
+and what they can do to improve it.
+
+Agile approaches reveals problems in a project. We need to pay attention to what gets exposed and not ignore it.
+
+Primary questions:
+- "What went well?"
+- "What would we lik0e to change?"
+- "How can we implement that change?"
+
+Secondary:
+- Results: Planned work vs. completed
+- People: Team composition and alignment
+- Relations: Communication, elaboration and pairs
+- Processes: Support, development and peer reviews
+- Tools: Effectivity
+- Productivity: Improvements
+
+Format:
+- Set the stage: Goals, Focus on specific areas
+- Gather data: Whiteboard
+- Generate insights: Ideas on improvements
+- Decide what to do: Agree on specific actions
+- Close the retrospective
+
+## preparing For Release
+
+### The Release Sprint
+
+The release sprint only contains things needed to move working functionality to the marketplace.
+
+- Creating user documentation for the most recent version of the product
+- Performance / load / security testing
+- Integration with enterprise-wide systems
+- Organizational or regulatory procedures
+- Release notes
+- Deployment package to move to production
+- Deployment to production environment
+
+### Preparing for Operational Support
+
+Supporting the product involves:
+- Responding to customer inquiries
+- Maintaining the system in a production environment
+- Enhancing existing functionality to fill minor gaps
+
+*Separating support and development helps focus on continuous innovation.
+Roughly a third of the team could be assigned maintenance, while the others stay on development.
+The developers can rotate one at a time every release bringing knowledge of new developments to maintenance.*
+
+### The Organization
+
+The release sprint backlog can also contain activities for different departments in the organization
+in preparation for a release. Therefore, the right people should be involved.
+
+### The Marketplace
+
+*Preparing customers is a key part to product success.*
+
+Different teams that may help:
+- Marketing support
+- Customer support
+- Marketing Materials
+- Support channels
+
+Think about what the persona's we created would need to know about current backlog.
+
+## Managing Scope and Procurement
+
+Product scope: All the required features
+Project scope: All the work involved in creating a product
+
+An agile scope management allows for scope changes.
+- The product owner ensures that the whole project team understands the existing scope
+- The product owner determines the value and priority of new requirements
+- The development team creates product requirements in order of priority
+
+### Managing Scope Changes
+
+Considerations:
+- Requirement of the change
+  - Support of product vision
+  - Support of current release goal
+  - Support of current sprint goal
+- Effort for the requirement
+- Priority of requirement
+
+### Procurement
+
+*On agile projects procurement starts when the development team decides it needs a tool,
+or the services of a third party to create the product.*
+
+Needs for procurement can arise at different stages of the project.
+From investigating the need to looking for concrete procurements:
+- Product vision stage
+- Product roadmap stage
+- Release planning
+- Sprint planning
+- Daily scrum
+- Throughout the day
+- Sprint review meeting
+- Sprint retrospective
+
+Considerations:
+- Can the vendor work in an agile project environment
+- Can the vendor work on-site
+- Will the relation between vendor and scrum team likely be collaborative
+- Laws and regulations for choosing vendors
+
+### Cost Approaches and Contracts
+
+Different structures:
+- Fixed-price project
+- Fixed-time project
+- Time-and-materials project
+- Not-to-exceed project
