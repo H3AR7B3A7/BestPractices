@@ -639,7 +639,7 @@ Placing a user story in a group should take no longer than 60s.
 
 - Establish the release goal
 - Identify a target release date
-- Review the product backlog and product roadmap to determine the highest-priority user stories that support the release goal (the minimum marketable features)
+- Review the product backlog and product roadmap to determine the highest-priority user stories supporting the release goal (the minimum marketable features)
 - Refine the user stories in the release goal
 - Estimate the number of sprints needed, based on the scrum team's velocity
 - Identify work necessary to release that can't be completed within a sprint, if necessary, and determine how long it should be
@@ -850,6 +850,7 @@ Format:
 - Decide what to do: Agree on specific actions
 - Close the retrospective
 
+
 ## preparing For Release
 
 ### The Release Sprint
@@ -934,6 +935,9 @@ Considerations:
 - Will the relation between vendor and scrum team likely be collaborative
 - Laws and regulations for choosing vendors
 
+*Ideally a vendor team get collocated, or some of their team members can join in for scrum meetings.
+They work on the same sprint schedule as the buyer's scrum team.*
+
 ### Cost Approaches and Contracts
 
 Different structures:
@@ -941,3 +945,84 @@ Different structures:
 - Fixed-time project
 - Time-and-materials project
 - Not-to-exceed project
+
+Contract Content:
+- Description of the different parties
+- The budget
+- The cost approach and payment terms
+- A description of the work
+- Agile approaches the vendor may use
+  - Or a description of integration with the buyer's development team and sprint
+
+Organizational Considerations:
+- Company or organization size and experience
+- Company or organization type
+- Company or organization culture
+
+*The scrum master makes sure the procurement people understand why a contract mey need to
+accommodate changing requirements and iterations.
+He also makes sure the organisation follows agile practices and principles.*
+
+### Closing a Contract
+
+*The scrum master acknowledges to the vendor that the contract is closed.
+A sincere "thank you" can help maintain a good relation for future projects.*
+
+
+## Managing Time and Cost
+
+*The development speed is closely related to time and cost of a project.*
+
+### Agile Time Management
+
+*A big benefit of agile time management is that agile project teams can deliver projects much
+earlier than traditional project teams. The early delivery of functionality with high priority
+ensures working within time and budget constraints.*
+
+*Agile projects finish sooner because they start development sooner.*
+
+### Managing Agile Schedules
+
+Velocity is the tool for time management in agile projects. It allows the forecasting of how long
+the scrum team will take, and consequently the cost it will take to complete a certain number of requirements.
+
+Velocity is a post-sprint fact and should not be guessed or committed to.
+The sum of story points completed in last sprint is the team's velocity for that sprint.
+It should not be seen as a performance metric, but a planning tool. The velocity is team and project specific
+and can't help with comparing teams nor projects.
+
+The project velocity is an average of each sprint velocity divided by the number of sprints. It gains in accuracy every sprint.
+
+When we know the velocity, and the remaining number of story points, we can now estimate the project time line.
+
+*Usually the velocity is lowest at the start of the project during the first sprints.*
+
+How to increase velocity:
+- Avoid roadblocks
+- Remove roadblocks
+- Eliminate distractions
+- Solicit input from the team
+
+How to keep velocity accurate:
+- Consistent sprint length
+- Consistent work hours
+- Consistent number of team members
+
+*Requirements Darwinism forces out requirements of lesser importance and ensures completion of requirements with high priority.
+This way new requirements might have no effect on the project timeline.*
+
+*If the product owner and stakeholders decide all requirements are useful enough to include in the project, the end date might need to be extended.*
+
+*In larger projects, multiple scrum teams working in parallel may be able to complete a project in a shorter time frame.
+Working with multiple teams, it can be useful to divide the work into themes. They need to be sufficiently separated to allow team independence.*
+
+Tools:
+- The product roadmap: Offers a strategic look at the overall priorities and allows initial framing for bringing the product to market
+- The product backlog: Story points in backlog allow for estimations using the velocity
+- Release plan: Contains target release dates for minimal sets of marketable functionality
+- Sprint backlog: Contains estimations in hours and allows for calculation of velocity post-sprint
+
+### Cost Management
+
+*Agile development avoids hostage situations where project sponsors either pay more or get nothing.*
+
