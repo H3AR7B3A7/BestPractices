@@ -1026,3 +1026,47 @@ Tools:
 
 *Agile development avoids hostage situations where project sponsors either pay more or get nothing.*
 
+Cost is mostly a direct expression of project time, and the cost of a team of full-time dedicated members.
+
+Initial budget:
+- Cost of scrum team
+- Cost of additional resources
+  - Hardware
+  - Software licenses
+  - Hosting
+  - Training
+  - Miscellaneous team expenses
+    - Office supplies
+    - Lunches
+    - Travel
+    - Tools
+
+*Separating one-time costs from sprint costs is recommended.*
+
+*Resources refer to inanimate objects, not people. They are referred to as team members, talent or just people.*
+
+**Self-funding**:  
+Agile projects sometimes have the capability to be self-funding. If the product generates income,
+early releases can help fund the rest of your project.
+
+### Lowering Costs
+
+*Time being the primary factor in the cost of the project, there is a lot to gain from removing impediments for the development team.*
+
+*Another option to lower cost is by not completing lower-priority requirements.*
+
+### Deciding on Capital Redeployment
+
+Required insights:
+- Business value of the remaining requirements
+- The actual cost of the required work to complete backlog
+- The opportunity cost, or the value of working on the new project
+
+*Pausing a project can be expensive. Stopping and restarting it can take a lot of extra work.
+These costs should be considered before any decisions are made.*
+
+
+## Team Dynamics and Communication
+
+
+
