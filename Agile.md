@@ -1068,5 +1068,98 @@ These costs should be considered before any decisions are made.*
 
 ## Team Dynamics and Communication
 
+*The core reason agile teams are different from traditional teams are their team dynamics.*
+
+Characteristics:
+- Self-managing & Self-organizing
+- Servant-leader: Coaches, removes obstacles and prevents distractions
+- Team performance
+- Focus on one project
+- Cross-functional skills
+- Limited in size for good communication
+
+### Managing Team Dynamics
+
+*Each team member of the scrum team has the opportunity to lead informally, based on skills, ideas and initiative.*
+
+**Self-management** assumes that people are professional, motivated and dedicated enough to commit to a job and see it through.
+Working with a self-managing scrum team requires trust and respect within the team and the organization.
+Accountability is at the core of Agile projects. Self-management returns innovation and creativity to the development team.
+It creates better architectures, requirements and design because people are more engaged.
+
+A role in all management areas:
+- Scope
+- Procurement
+- Time
+- Cost
+- Team dynamics
+- Communication
+- Stakeholders interaction
+- Quality
+- Risk
+
+### The Servant-Leader
+
+*The scrum master serves as a servant leader. Servant-leadership is a concept that has been around since 1970.
+It was coined by Robert K. Greenleaf who founded the centre for applied ethics.*
+
+Characteristics:
+- Listening
+- Empathy
+- Healing
+- Awareness
+- Persuasion
+- Conceptualization
+- Foresight
+- Stewardship
+- Commitment to growth of people
+- Building community
+
+The servant-leader role has been more thoroughly described in 'The NEw One-Minute Manager' by K. Blanchard and S. Johnson.
+
+### Dedicated Team
+
+Benefits:
+- Focus on one project, no distractions
+- Fewer distractions, fewer mistakes
+- Knowing what you will work on stimulates engagement
+- More innovation
+- Higher satisfaction
+- Allows predictions using velocity
+
+### Cross-Functional Team
+
+*While each person has specialties, being cross-functional means that everyone on the team is willing to pitch in
+on different parts of the project, as much as they can.*
+
+*Working on different aspects of the same problem increases knowledge depth, and the ability to do a better job.* 
+
+### Openness
+
+*Scrum team members working in the same physical location and being able to talk in person, instantly, is important to team dynamics.*
+
+Everyone should be able to:
+- Feel safe
+- Speak their mind positively
+- Challenge the status quo
+- Be open about challenges without being penalized
+- Request resources that will make a difference to the project
+- Make mistakes and learn from them
+- Suggest change and expect serious consideration
+- Respect fellow scrum team members
+- Be respected by other members of the scrum team
+
+*Some of the best product and process improvements come from novices asking 'silly' questions.*
+
+### Limited Size
+
+*An ideal team size is somewhere in between 3 and 9 team members.*
+
+More people tend to break into subgroups. While perfectly normal social behavior, it can disrupt the team's self-management.
+
+Not enough people might result in a team poor in skill variety.
+
+### Dislocated Teams
+
 
 
