@@ -1161,5 +1161,50 @@ Not enough people might result in a team poor in skill variety.
 
 ### Dislocated Teams
 
+*A lot of reasons might prevent collocation.*
+
+Models of distributed scrum teams:
+- Isolated scrums: Only code level integration through coding standards
+- Distributed scrum of scrums: A meeting of scrum masters to integrate on daily basis
+- Integrated scrums: Cross-functional including a scrum of scrums
+
+*Communicate, communicate, communicate...*
+
+Tips:
+- Use video conferencing technology
+- Arrange to meet in person in a central location if possible
+- Use an online collaboration tool
+- Include scrum team member pictures in all communication channels
+- Be cognizant of time zone differences
+- Be flexible because of time zone differences
+- When in doubt on a message, clarify through phone or video
+- Be aware of language and cultural differences
+- Discuss non-work related topics sometimes
+
+### Communication
+
+*You can communicate on agile projects through artifacts, meetings and informally.*
+
+![Communication Types](img/CommunicationTypes.png)
+
+All the previously mentioned meetings are there to provide means and format for communication
+in a face-to-face environment and the artifacts for written communication.
+
+### Reporting Status and Progression
+
+**Status** is a measure of the features the scrum team has completed.
+Working functionality that meets the definition of done is the primary measure of progress.
+
+Progress of the sprint and project should be tracked daily and for that we use:
+- Task board
+- Sprint backlog
+- Product backlog
+- Release and sprint burn down charts
+- Sprint reviews
+
+*Stakeholders and especially sponsors have an invested interest in the progress and should be encouraged
+joining the sprint reviews as well as knowing where to find these artifacts.*
+
+## Managing Quality and Risk
 
 
