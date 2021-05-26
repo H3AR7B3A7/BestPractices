@@ -1207,4 +1207,85 @@ joining the sprint reviews as well as knowing where to find these artifacts.*
 
 ## Managing Quality and Risk
 
+*Quality management on agile projects fundamentally reduces project risk.*
+
+All 12 Agile principles promote quality either directly or indirectly.
+
+Quality dynamics:
+- Testing is a daily part of each sprint
+  - Testing small parts of code is easier
+  - Fixing code recently worked on is easier
+  - Testing is assured and not forgotten about
+- Proactively encouraging good (quality) practices
+- Riskier features are added first, when sunk costs are low
+- Multiple quality feedback loops
+  - Peer review
+  - Product owner
+  - Stakeholders
+  - End-users
+
+Agile development teams have the primary responsibility for quality.
+
+Proactive good practices:
+- Emphasis on technical excellence and good design
+  - Freedom of self-management
+  - Organizational commitment to excellence
+- Incorporation of quality-specific development techniques into product creation
+  - TDD
+  - Pair programming
+  - Peer review
+  - Collective code ownership
+  - Continuous integration
+- Daily communication between development team and product owner
+  - A voice of business needs
+- Acceptance criteria built into user stories
+  - Clarity of criteria
+- Face-t-face communication and collocation
+  - Clarity of requirements, roadblocks and overall discussions
+- Sustainable development
+  - Good rhythm and enough sleep/life makes for better decisions
+- Regular inspection and adaption of work and behaviour
+  - Sprint review, retrospective and on daily basis
+
+### Develop and Test
+
+Steps:
+- Develop code and automated tests
+- Create an integrated code build at the end of the day
+- Schedule the automated testing software to test the newest build over night
+- Check results first thing in the morning
+- Fix any defects immediately
+
+Types of software testing:
+- Unit testing
+- Regression testing
+- User acceptance testing
+- Functional testing
+- Integration testing
+- Enterprise testing
+- Performance testing
+- Load testing
+- Smoke testing
+- Static testing
+
+### Risk
+
+*Risk refers to the factors that contribute to a project's success or failure.*
+
+Risk management is built into the artifacts and methodology used in Agile projects.
+
+![Chaos Resolution by Agile vs Waterfall](img/ChaosResolutionByAgileVsWaterfall.png)
+
+Risk dynamics:
+- Catastrophic failure almost eliminated
+- Immediate gain in product value
+- Infeasibility discovered early on
+- Agile projects welcome change for product benefit
+- Time and cost estimated on actual performance
+- The product owner ensures a vision for the product
+- The product owner is an immediate source of information
+- The scrum master removes impediments on a daily basis
+
+![Declining Risk](img/DecliningRisk.png)
+
 
