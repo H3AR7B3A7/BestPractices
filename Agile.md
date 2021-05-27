@@ -1288,4 +1288,50 @@ Risk dynamics:
 
 ![Declining Risk](img/DecliningRisk.png)
 
+### Inherent and Active Risk Management
+
+Inherent:
+- Definition of done: Ensures there is no confusion of expectations
+- Self-funding: Can mitigate the financial risks of a product
+- Failing fast: Minimizes the cost of failure
+
+*On top of that teams should still be aware of problems that can arise during a project.
+The use of the Agile artifacts should help identify, prioritize and respond to risk early.*
+
+## Agile Foundations
+
+*To successfully move from traditional project management to Agile processes, we must start with a good foundation.
+We need commitment, both from the organization and people as individuals.
+We need a good project team for a first Agile project, providing them an environment conducive to Agile approaches.
+We want to find the right training for your project team, and sustainably support the organization's Agile approach,µ
+so it can grow beyond the first project.*
+
+### Organizational Commitment
+
+- Engaging an experienced Agile expert
+- Investing in employee training (first team and all leaders)
+- Allowing abandonment of waterfall processes and documents
+- Ensuring dedicated team members
+- Encourage continuous increase of skills
+- Provide automated testing tools and integration framework
+- Logistically support collocation
+- Allowing for self-management
+- Allowing freedom for a healthy trial and error process
+- Revising employee performance to emphasize team performance
+- Encouragement and acknowledging success
+
+### Individual Commitment
+
+- Attending training and conferences, with willingness to learn Agile methodology
+- Being open to change
+- Not fall back on old processes
+- Acting as a peer coach for team members with less Agile experience
+- Allowing themselves to make mistakes and learn
+- Honest reflection on sprints and committing to improvements
+- Actively becoming multi-skilled
+- Letting go of ego and work as a team
+- Taking responsibility for success and failure as a team
+- Taking the initiative to be self-managing
+- Being active and present
+
 
