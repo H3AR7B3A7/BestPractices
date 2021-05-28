@@ -178,3 +178,8 @@ We can also make use of a comparator and its construction methods. Chain them an
 ### Composition Over Inheritance
 
 ### Design for - or Prohibit Inheritance
+
+
+
+---
+*Work in progress...*
