@@ -1510,6 +1510,7 @@ Scaled Agile Framework is used to scale scrum and agile principles across multip
 and software development organization.
 
 ![SAFe 5.1](img/SAFe5.png)
+*[Click here](https://www.scaledagileframework.com/) for an interactive version.
 
 SAFe has three configurations:
 - Portfolio
