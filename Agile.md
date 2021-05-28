@@ -1457,6 +1457,45 @@ Addressed topics are:
 
 ### LeSS
 
+Large scale scrum is another way to scale scrum across massive projects.
+
+Differences:
+- One scum master for 1-3 teams
+- One product owner for up to 8 teams
+- Sprint planning requires at least 2 developers per scrum team and the product owner
+- Independent sprint planning and scrum meetings can be attended by members from other team
+- Sprint reviews are combined across all teams
+- An overall sprint retrospective in addition to individual ones
+
+### LeSS Huge
+
+*With LeSS Huge, a few thousand people could work on one project.*
+
+Differences:
+- Scrum teams are grouped around major areas of customer requirements
+- Each area has one area product owner
+- Each area has 4-8 scrum teams
+- One overall product coordinates with different area product owners
+- Requirement areas are added to the product backlog
+- Parallel sprint meetings per requirement area
+- Overall sprint reviews and retrospectives are required for continuous inspection and adaptation
+
+*Sprint reviews can be organized similar to a science fair, both for stakeholders and other scrum teams.*
+
+### Travelers
+
+The more versatile a development team, the fewer the bottlenecks. This it can be useful for specialist
+become travelers joining different scrum teams to coach and mentor in their area of expertise.
+
+### Nexus
+
+Reduction of inter-team dependencies is key to scaling success. Nexus is a scaling framework
+focussed on treating multiple teams as a single unit.
+
+![Nexus Framework](img/NexusFramework.png)
+
+- One additional role
+- Three additional artifacts
 
 
 
