@@ -1400,6 +1400,64 @@ There are many Agile certifications from different organization:
 
 ## Scaling
 
+*Scale only when required. Multiple teams don't automatically ensure higher quality and faster time to market.*
+
+### Challenges
+
+- **Project planning**  
+  Collaboration for large groups is different.
+- **Release planning**  
+  More specific planning of scope and timing is required.
+- **Decomposition**  
+  Breaking down larger requirements might need multiple teams.
+- **Sprint planning**  
+  Dependencies between scrum teams are a reality.
+- **Daily coordination**  
+  Daily collaboration is required.
+- **Sprint review**  
+  Double the reviews with stakeholders should be managed and accomplishments shared among teams.
+- **Sprint retrospective**  
+  Harder to identify and implement improvements across the program.
+- **Integration**  
+  All product increments need to be integrated.
+- **Architecture decisions**  
+  Maintaining self-organization and autonomy in architecture and standards needs consideration.
+
+### Vertical Slicing
+
+Multiple scrum teams work in synchronized sprints of the same length on a separate portion or module of the product.
+These modules are integrated by an integration scrum team that lags behind the development teams with one sprint.
+This can be done on multiple levels when needed, with each integration scrum team handling the developed
+functionality of the teams that feed into it.
+
+In the scrum of scrums for **product owners**, each gathers for 15 minutes with the integration team product owner.
+
+Addressed topics are:
+- Accepted and rejected business requirements
+- Requirements that should be accepted by next scrum
+- Impeded requirements that need help from other teams
+
+In the scrum of scrums for **developers**, one developer from each team joins the integration team's daily scrum.
+
+Addressed topics are:
+- Accomplishments since last time
+- Planned accomplishment for next meeting
+- Technical concerns in need of help
+- Technical direction decisions that need awareness to prevent issues
+
+In the scrum of scrums for **scrum masters**, each gathers for 15 minutes with the integration team scrum master.
+
+Addressed topics are:
+- Resolved team-level impediments
+- Newly identified impediments
+- Impediments needing help to resolve
+- Potential impediments that need awareness
+
+*When there are more than five scrum teams, a scrum of scums of scrums might be required.*
+
+### LeSS
+
+
 
 
 ---
