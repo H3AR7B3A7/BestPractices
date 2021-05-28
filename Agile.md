@@ -1334,4 +1334,72 @@ so it can grow beyond the first project.*
 - Taking the initiative to be self-managing
 - Being active and present
 
+### Getting Commitment
+
+Things that can aid in getting commitment:
+- Agile Champion Senior-Manager
+- Example Agile solutions to existing problems
+- Highlighting overall benefits
+  - Happy customers
+  - Profit
+  - Defect-reduction
+  - Morale
+
+### Considerations
+
+Questions:
+- What are the organizational roadblocks?
+- How are you doing business today?
+- How do your teams work today, and what will need to shift?
+- What are the regulatory challenges?
+
+Concerns:
+- Agile approaches reveal that the organization needs to change
+- Project management leaders may misinterpret Agile techniques as insufficient
+- Moving from a leadership to a service model can be challenging
+
+### The Right Time
+
+*Organizationally, we can start the initiative to move to an Agile approach at any time.*
+
+Optimal times:
+- When we need to prove that Agile project management is necessary
+- When our challenge is doing accurate budgeting
+- When we start a new project
+- When we try to reach a new market or industry
+- When we have new leadership
+
+### Champion
+
+Characteristics:
+- Passionate about Agile and addressed issues
+- Decisive on company processes
+- Excitement inducing
+- Collaborative with project team
+- Skilled at picking project team members
+- Willing to remove unnecessary distractions
+
+### Team
+
+Characteristics:
+- Committed to organization success and support of Agile teams
+- Have a vision on roadmap to becoming Agile
+- Organized like a scrum team
+- Operate as scrum team (5 event, 3 artifacts)
+
+### Certifications
+
+There are many Agile certifications from different organization:
+- Scrum Alliance
+- The Project Management Institute
+- Scrum.org
+- International Consortium for Agile
+- University Programs
+- ...
+
+
+## Scaling
+
+
+
 
