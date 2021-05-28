@@ -1495,9 +1495,66 @@ focussed on treating multiple teams as a single unit.
 ![Nexus Framework](img/NexusFramework.png)
 
 - One additional role
+  - Nexus integration team
+    - Product owner
+    - Scrum master
+    - Development team members (usually also team members from the nexus)
 - Three additional artifacts
+  - Nexus goal
+  - Nexus sprint backlog
+  - Integrated increment
 
+### SAFe
 
+Scaled Agile Framework is used to scale scrum and agile principles across multiple layers of an IT 
+and software development organization.
+
+![SAFe 5.1](img/SAFe5.png)
+
+SAFe has three configurations:
+- Portfolio
+- Large solution
+- Essential
+  - Program
+  - Team
+  
+#### Portfolio Level
+
+A value stream is defined as a sequence of steps.
+
+Roles driving decisions:
+- **Lean portfolio management**  
+  Aligns strategy and execution through communicating strategic themes, value streams and budget allocation.
+- **Epic owner**  
+  Epics are the largest and most long-term initiatives driving business value for the organization.
+- **Enterprise architect**  
+  Establishes common technical vision and drives a holistic approach to technology.
+
+#### Large Solution Level
+
+*For solutions that require more than 125 people.*
+
+The solution train coordinates multiple agile release trains.
+
+Roles:
+- Solution architect
+- Solution management
+- Solution train engineer
+
+#### Program Level
+
+*The Agile release trains.*
+
+Roles:
+- System architect
+- Product management
+- Release train engineer
+
+#### Team Level
+
+*The teams that make up an Agile release train.*
+
+They work in cadence with each other, and their backlogs align with program vision and backlog.
 
 ---
 *Work in progress...*
