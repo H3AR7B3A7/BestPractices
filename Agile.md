@@ -1521,11 +1521,13 @@ SAFe has three configurations:
   
 #### Portfolio Level
 
+*An enterprise or government containing different businesses/departments.*
+
+*Lean portfolio management* aligns strategy and execution through communicating strategic themes, value streams and budget allocation.
+
 A value stream is defined as a sequence of steps.
 
-Roles driving decisions:
-- **Lean portfolio management**  
-  Aligns strategy and execution through communicating strategic themes, value streams and budget allocation.
+Additional roles driving decisions:
 - **Epic owner**  
   Epics are the largest and most long-term initiatives driving business value for the organization.
 - **Enterprise architect**  
@@ -1537,7 +1539,7 @@ Roles driving decisions:
 
 The solution train coordinates multiple agile release trains.
 
-Roles:
+Additional roles:
 - Solution architect
 - Solution management
 - Solution train engineer
@@ -1546,7 +1548,7 @@ Roles:
 
 *The Agile release trains.*
 
-Roles:
+Additional roles:
 - System architect
 - Product management
 - Release train engineer
