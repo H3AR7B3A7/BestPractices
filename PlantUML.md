@@ -1,7 +1,7 @@
 # PlantUML
 
-PlantUML is an open-source tool allowing users to create diagrams from a plain text language.
-It also supports various other Software development related formats, as well as visualisation of JSON and YAML files.
+PlantUML is an open-source tool allowing users to create **diagrams** from a plain text language.
+It also supports various other Software development related formats, as well as **visualisation** of JSON and YAML files.
 
 [Official Documentation](https://plantuml.com/)
 
