@@ -23,3 +23,5 @@ Various documentations on best practices in software development.
 
 - [Scrum](Scrum.md)  
     (Scrum by M.C. Layton & D. Morrow)
+  
+- [PlantUML](PlantUML.md)
