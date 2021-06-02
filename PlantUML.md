@@ -61,7 +61,7 @@ Any of these arrows can go in either or both directions and can end or start wit
 (type) "(name)" as (alias) order (number) (hex color)
 (type) (alias) as "(name)" order (number) (hex color)
 ```
-Type:
+Types:
 - participant
 - actor
 - boundary
@@ -89,3 +89,13 @@ Auto numbering can be stopped or resumed (with another increment and/or format)
 autonumber stop
 autonumber resume (increment) "(format)"
 ```
+
+### Styling
+
+```
+
+```
+
+
+---
+*Work in progress...*
