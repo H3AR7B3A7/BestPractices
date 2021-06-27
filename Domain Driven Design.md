@@ -142,5 +142,10 @@ Cons:
 
 
 
+## Hexagonal / Onion Architecture
+
+We can find an interesting article about the Hexagonal / Onion Domain Driven architecture
+[here](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/). 
+
 ---
 *Work in progress...*
