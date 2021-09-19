@@ -28,3 +28,7 @@ Various documentations on best practices in software development.
 - [PlantUML Diagrams & Visualizations](PlantUML.md)
 
 - [Relational Database Design](Relational%20Databases.md)
+
+- [Project Management](Project%20Management.md)
+
+- [IntelliJ IDEA](IntelliJ.md)
