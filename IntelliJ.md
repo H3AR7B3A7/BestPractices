@@ -9,6 +9,8 @@ To have a Spring project live reload your changes:
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-devtools</artifactId>
+        <optional>true</optional>
+        <scope>runtime</scope>
     </dependency>
     ```
 
