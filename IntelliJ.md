@@ -77,6 +77,8 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 - **Ctrl + D**: Duplicate line
 - **Ctrl + /**: Comment out / Uncomment
 
-*Some other functions do not have keyboard shortcuts, you might want to consider assigning some of these:*
+Some other functions do not have keyboard shortcuts, you might want to consider assigning some of these:
 
 - Extract interface
+
+*(Tip: Alt + Numpad makes for 10 easy extra shortcuts you can use to suit your needs.)*
