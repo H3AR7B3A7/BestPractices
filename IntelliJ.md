@@ -15,9 +15,9 @@ To have a Spring project live reload your changes:
     </dependency>
     ```
 
-- In your intellij IDEA go to: **Ctrl+Alt+S** ->build,execution,deployment->compiler
+- In your intellij IDEA go to: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> ->build,execution,deployment->compiler
     - Select build project automatically
-- In your intellij IDEA: **Ctrl+Shift+A** ->registry
+- In your intellij IDEA: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> +<kbd>A</kbd> ->registry
     - Select compiler.automake.allow.when.app.running
 - Add LiveReload extension in your browser
     - Enter a rule for html (e.g. localhost:8080)
@@ -30,10 +30,10 @@ Deployment tab.*
 
 ## Auto Imports
 
-- In your intellij IDEA go to: **Ctrl+Alt+S** ->Editor->General->Auto Import
+- In your intellij IDEA go to: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> ->Editor->General->Auto Import
     - Select optimize imports on the fly
 
-- In your intellij IDEA go to: **Ctrl+Alt+S** ->Editor->Code Style->Java->Imports
+- In your intellij IDEA go to: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> ->Editor->Code Style->Java->Imports
     - Set Class count to use imports with '*' to 9999
     - Set Names count to use static imports with '*' to 9999
 
@@ -41,7 +41,7 @@ Deployment tab.*
 
 We can create a scratch file by navigating to the project tab and creating a new file:
 
-**Alt + 1** -> **Alt + Insert** -> Scratch file -> Http Request
+<kbd>Alt</kbd> + <kbd>1</kbd> -> <kbd>Alt</kbd> + <kbd>Insert</kbd> -> Scratch file -> Http Request
 
 ```http request
 GET localhost:8080/user?firstname=Bob&lastname=Builder&age=44
@@ -55,30 +55,30 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 
 ## Interesting Keyboard Shortcuts
 
-- **Ctrl + K**: Commit
-- **Ctrl + Shift + K**: Push
-- **Alt + 1**: Project folder
-- **Alt + Insert**: Generate file or code
-- **Ctrl + I**: Implement interface
-- **Ctrl + Alt + V**: Extract variable
-- **Ctrl + Alt + M**: Extract method
-- **Ctrl + Alt + F**: Extract field
-- **Ctrl + B**: Find usage in code
-- **Shift + F6**: Refactor name
-- **Ctrl + Alt + S**: Open Settings
-- **Ctrl + Shift + Space**: Code suggestions
-- **Shift x2**: Search everywhere
-- **Ctrl + F**: Find in file
-- **Ctrl + Shift + F**: Find in project/module/directory/scope
-- **Ctrl + R**: Find and replace in file
-- **Ctrl + ALt + L**: Format file
-- **Alt + Shift + Up/Down**: Move line
-- **Ctrl + Shift + Up/Down**: Move block
-- **Ctrl + D**: Duplicate line
-- **Ctrl + /**: Comment out / Uncomment
+- <kbd>Ctrl</kbd> + <kbd>K</kbd>: Commit
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + K</kbd>: Push
+- <kbd>Alt</kbd> + <kbd>1</kbd>: Project folder
+- <kbd>Alt</kbd> + <kbd>Insert</kbd>: Generate file or code
+- <kbd>Ctrl</kbd> + <kbd>I</kbd>: Implement interface
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + V</kbd>: Extract variable
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + M</kbd>: Extract method
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + F</kbd>: Extract field
+- <kbd>Ctrl</kbd> + <kbd>B</kbd>: Find usage in code
+- <kbd>Shift</kbd> + <kbd>F6</kbd>: Refactor name
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + S</kbd>: Open Settings
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Space</kbd>: Code suggestions
+- <kbd>Shift</kbd> x2: Search everywhere
+- <kbd>Ctrl</kbd> + <kbd>F</kbd>: Find in file
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + F</kbd>: Find in project / module / directory / scope
+- <kbd>Ctrl</kbd> + <kbd>R</kbd>: Find and replace in file
+- <kbd>Ctrl</kbd> + <kbd>ALt</kbd> + L</kbd>: Format file
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move line
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move block
+- <kbd>Ctrl</kbd> + <kbd>D</kbd>: Duplicate line
+- <kbd>Ctrl</kbd> + <kbd>/</kbd>: Comment out / Uncomment
 
 Some other functions do not have keyboard shortcuts, you might want to consider assigning some of these:
 
 - Extract interface
 
-*(Tip: Alt + Numpad makes for 10 easy extra shortcuts you can use to suit your needs.)*
+*(Tip: <kbd>Alt</kbd> + <kbd>Numpad 0 - 9</kbd> makes for 10 easy extra shortcuts you can use to suit your needs.)*
