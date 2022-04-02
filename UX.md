@@ -12,6 +12,20 @@ the product, including aspects of branding, design, usability and function.
 
 ![UX vs UI.png](img/user-experience.png)
 
+## Books
+- Emotional Design, by Don(ald) Norman
+- Lean UX, by Jeff Gothelf and Josh Seiden
+- UX for Lean Startups, by Laura Klein
+- Agile Experience Design, by Lindsay Radcliffe and Marc McNeill
+- Don't Make Me Think, by Steve Krug
+- About Face, by Alan Cooper
+- Designing for the Digital Age, by Kim Goodman
+- Series: A Book Apart
+- Author: Don Norman
+- Author: Luke Wroblewski
+- Author: Dan Pink
+
+
 ## User-Centered Design
 
 ![User-centered Design](img/user-centered-design.png)
