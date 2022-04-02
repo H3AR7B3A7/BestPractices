@@ -161,4 +161,27 @@ the product, including aspects of branding, design, usability and function.
   even filling in missing parts if needed (e.g. a stripes only zebra, or spots only giraffe or dalmatian, etc.)
 - **Focal Point:** Tendency for whatever stands out visually to capture and hold the viewer’s attention first
 
-##
+
+## Marketing Hierarchy
+
+- Attract: Bring in the viewer
+- Intrigue: Get the viewer to engage / Spike the interest
+- Deliver: Deliver the message
+
+### Color Hierarchy
+
+There is a hierarchy of colors that are more attention grabbing than others.
+We should order the colors we use in the UI and use them appropriately.
+
+![Color Arousal Level](img/color-arousal-level.png)
+
+### Size Hierarchy
+
+The hierarchy in size is more obvious. The bigger things are the more attention they grab
+and the more important it will appear. (Typography: size, weight)
+
+### Hierarchy Everywhere
+
+- A magazine cover is made to draw you in, and the message is within.
+- Each article will have its own hierarchy.
+- Different parts of the article or image will also have their own hierarchy.
