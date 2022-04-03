@@ -76,6 +76,54 @@ Good backgrounds:
 
 ### Getting Started
 
+Steps:
+- Get to know the UX toolkit
+- Establish a point of view of what can be improved
+- Get to know your users
+- Start designing
+
+Todd Zaki Warfel's Model:
+![Todd Zaki Warfel's Model](img/todd-zaki-warfel-model.png)
+
+David Armano's Model:
+![David Armano's Model](img/david-armano-model.png)
+
+Namahn's Model:
+![Namahn's Model](img/namahn-model.png)
+
+Stephen P. Anderson's Model:
+![Stephen P. Anderson's Model](img/stephen-p-anderson-model.png)
+
+James Kelway's Model:
+![James Kelway's Model](img/james-kelway-model.png)
+
+Activities in UX process:
+- Discovery
+  - Stakeholder interviews
+  - SWOT analysis
+  - Requirements gathering
+- Strategy
+  - Design principles
+  - Vision artifacts
+  - Roadmaps
+- User research
+  - Primary user research
+  - Secondary user research
+  - Personas, mental models, and user stories
+- Design
+  - Information architecture / Site Map
+  - Process and Task Diagrams
+  - Wireframes
+  - Design Comps
+  - Detailed Specifications
+  - Style and Pattern Guides
+  - Prototypes
+- Implementation
+  - Usability testing
+  - Implementation oversight
+  - Metrics / analytics tracking
+
+
 
 
 ### Building Support for Your Work
