@@ -10,13 +10,16 @@ Book principles:
 
 ## Philosophy
 
-Requirements for Team of One:
+Requirements for a Team of One:
 - Technical know-how
 - Vision
 - Conviction
 - Soft touch
 
-UX Definition:  
+
+### UX 101
+
+UX Definition:
 - Messy to describe
 - The overall effect created by the interactions and perceptions that someone has when using a product or service.
 - Described with 'love' or 'hate', 'easy to use' or 'a pain in the ass'
@@ -44,11 +47,36 @@ Sub-disciplines:
 - Brand marketing
 - Brand engineering
 
+History:
+- 1900: Frederick Winslow Taylor & Henry Ford research interactions between workers and their tools
+- 1940: Lieutenant Colonel Paul Fitts research configurations of cockpit control knobs
+- 1940: Toyota involves workers in troubleshooting and optimizing processes
+- 1955: Henry Dreyfuss writes 'Designing for People'
+- 1960: Academics do research in what we now call cognitive science
+- 1970: PARC (Xerox Research Center) produce user interface conventions, the mouse and computer generated bitmap graphics
+- 1990: Donald Norman coins the term 'user experience' at Apple
 
+UX vs UI:
+- UI is the visual interface
+- UX encompasses the whole experience
+  - UI
+  - Hardware
+  - User's context of use
+  - USer's goals and & motivations
+  - ...
 
-### UX 101
+Good backgrounds:
+- Web or software development
+- Editing, journalism or copywriting
+- Graphic or print design
+- Research, sociology anthropology and psychology
+- Engineering
+- Product management and business analysis
+
 
 ### Getting Started
+
+
 
 ### Building Support for Your Work
 
