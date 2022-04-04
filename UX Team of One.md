@@ -123,7 +123,37 @@ Activities in UX process:
   - Implementation oversight
   - Metrics / analytics tracking
 
+#### 1. Establish a view on the work to be done:
+- Find parts of the product that everyone agrees need improvement
+- Write a UX Project Plan, working your way back from questions that need to be answered
 
+Method cards:  
+These help identify activities that can provide user-oriented perspective
+
+- [IDEO Method Cards](https://www.ideo.com/post/method-cards)
+- [SAP Method Card](https://www.sap.com/dam/application-assets/sap-logo/sap-logo-method-card.pdf)
+- [18F Method Card](https://methods.18f.gov/assets/downloads/18F-Method-Cards-Print-at-Home.pdf)
+
+Objections:  
+*We can avoid objections by not asking for permission, but rather provide 2 options.*
+
+#### 2. Get to know your users:
+- Figure out what you know (and don't know)
+- Do guerrilla Research
+
+[Article on optimal amount of user exposure](https://articles.uie.com/user_exposure_hours/):
+- Two hours
+- A minimum of every 6 weeks
+- In person and remote
+- Including non-design personnel (aka everyone)
+
+#### 3. Start designing:
+- Sketch your ideas on paper or whiteboard
+- Enlist colleagues to generate design ideas
+- Learn from other successful products
+
+An inspiration library:  
+*A folder where you keep screenshots of notable designs, either for being good, or bad.*
 
 
 ### Building Support for Your Work
