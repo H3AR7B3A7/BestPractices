@@ -194,6 +194,49 @@ Techniques:
 - Arrange pre-meetings to avoid the 'big reveal'
 - Use relatable language
 
+#### Dealing with organizational issues
+- Gain access and visibility across departments
+- Make the most of insufficient resources
+
+Ideas:
+- Offer to visualize requirements
+- Help others see how UX impacts the process
+- Play nicely with vendors (analytics, development, UX, ...)
+  - Get invited to meetings
+  - Learn from them
+  - Work with them
+  - Stay actively involved with execution
+- Turn the rubber stamp into an opportunity
+- Develop case studies
+- Break bread
+
+#### Common objections
+- "It's just web design."  
+Limiting the scope/responsibility to web or interface limits potential impact
+
+- "We already do market research."  
+Market research is about what users want, not how to best achieve it.
+
+- "User experience work is too expensive."  
+It's always less expensive to plan before something is built.
+
+- "It takes too much time."  
+Realistically it does take some time, but not months. The time spent will defray costs down the road.
+
+- "UX research isn't statistically significant."  
+A small sample size can still give the gist of the big trends,
+large sample sizes would just be more costly in time and investment.
+The idea is not to get market averages, but to get inspiration.
+(Just 5 users can help uncover 85% of the usability issues.)
+
+- "We already know what needs to be done."  
+UX doesn't only tell you what's wrong, but also why and how to fix it. Or it can help validate a solution.
+Watching people use the product can also provide unexpected insights. 
+
+- "That's marketing's/engineering's/product management's job."  
+They all have an alternative angle, UX is the glue that binds these considerations together
+
+
 ### Growing Yourself and Your Career
 
 ## Practice
