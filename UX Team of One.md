@@ -158,6 +158,42 @@ An inspiration library:
 
 ### Building Support for Your Work
 
+- Relationships over process
+- Principles/vision about what to make
+- Principles/vision about how to work
+- Mindset over methods
+
+#### 1. Invite people in
+- Be open and accessible
+- Be friendly
+- Empower others to feel ownership
+
+#### 2. Make things together
+- Avoid endless discussions
+- Make small examples
+- Promote sketching/whiteboarding
+
+#### 3. Truly listen
+- Be a facilitator/conduit of ideas
+- Cleverly reconcile tensions
+- Be truly interested and question what is unclear
+
+#### 4. Know when it is good enough
+- The work is never really done
+- Learn to see what is 'good enough' to start working
+
+#### Dealing with people issues
+- Stay impartial
+- Assume good intentions
+- Try other perspectives
+
+Techniques:
+- Interview the team about how they want t engage with UX
+- Build an informal UX network
+- Ask others to participate
+- Arrange pre-meetings to avoid the 'big reveal'
+- Use relatable language
+
 ### Growing Yourself and Your Career
 
 ## Practice
