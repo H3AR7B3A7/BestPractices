@@ -238,6 +238,108 @@ They all have an alternative angle, UX is the glue that binds these consideratio
 
 
 ### Growing Yourself and Your Career
+Professional Communities
+- People you can learn from / mentor
+- Share experiences and best practices
+- Commiserate
+- Job opportunities
+
+Associations:
+- IXDA
+- SIGCHI
+- IA Institute
+- UXPA
+- ASIST
+- AIGA
+- STC
+
+Discussions lists:
+- [IXDA](https://ixda.org/)
+- [IA Institute](http://lists.iainstitute.org/listinfo.cgi/iai-members-iainstitute.org/)
+- [CIGCHI](https://sigchi.org/operations/listserv/)
+- [Anthrodesign](https://anthrodesign.com/join-us/)
+- [Stack Exchange](https://ux.stackexchange.com/)
+- [LinkedIn](https://www.linkedin.com/)
+
+Meet-Ups and Locals:
+- topical / for learning
+- networking
+- mentors & buddies:
+
+#### Continuing Education
+Online resources:
+- [UX Booth](https://uxbooth.com/)
+- [UX Matters](https://uxmatters.com/)
+- [A List Appart](https://alistapart.com/)
+- [Boxes and Arrows](https://boxesandarrows.com/)
+- [Smashing Magazine](https://smashingmagazine.com/)
+- [Core77](https://core77.com/)
+- [.Net Magazine](https://www.creativebloq.com/net-magazine)
+- [UIE Newsletter](https://uie.com/)
+
+Seminars:
+- [User Interface Engineering Virtual Seminars](https://www.uie.com/)
+- [Rosenfeld Media Virtual Seminars](https://rosenfeldmedia.com/events/)
+- [Lynda.com](https://www.linkedin.com/learning/)
+- [TreeHouse](https://teamtreehouse.com/)
+- [Coursera](https://www.coursera.org/)
+- [AIGA Webinars](https://aiga.org/resources)
+- [Slideshare](https://www.slideshare.net/)
+
+Books:
+- Rosenfeld Media
+- New Riders
+- O'Reilly Media
+- A Book Apart
+
+Conferences:
+- [Interaction Design Foundation](https://www.interaction-design.org/)
+- [Eventbrite](https://www.eventbrite.com/)
+
+In person classes / courses:
+Depends on region...
+
+Degree programs (EUROPE):
+- Royal College of Art
+- City University London
+- Middlesex University
+- The University of York
+- Limburg Catholic University College
+- University of Applied Sciences
+- Delft University of Technology
+- Copenhagen Institute of Interaction Design
+- Umeå Institute of Design
+- Malmö University
+- The Domus Academy
+
+In your organization:
+- written goals
+- peer-to-peer
+- resources
+
+Case for Career growth:
+- Align with business goals
+- Measure your progress
+- Strategic planning
+
+Question for moving out / on:
+- Team of one, or team of many?
+- Innie or outie?
+- Employed or independent?
+- What topic or touch point?
+- Specialist or generalist?
+
+Getting paid:
+- Calculate your rate
+  - Billable hours
+  - Salary surveys
+- Negotiate
+- Establish a fee schedule that protects you
+
+Position engagement for success:
+- Do a project brief
+- Be choosy about what you call yourself
+
 
 ## Practice
 
