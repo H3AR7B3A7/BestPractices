@@ -340,6 +340,10 @@ Position engagement for success:
 - Do a project brief
 - Be choosy about what you call yourself
 
+Manage your time:
+- Estimate conservatively
+- Create timeboxes
+- Manage feedback loops (reserve time for discussions)
 
 ## Practice
 
