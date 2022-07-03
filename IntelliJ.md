@@ -91,7 +91,7 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + K</kbd>: Push
 - <kbd>Alt</kbd> + <kbd>1</kbd>: Project folder
 - <kbd>Alt</kbd> + <kbd>Insert</kbd>: Generate file or code
-- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + S</kbd>: Open Settings
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>: Open Settings
 
 - <kbd>Ctrl</kbd> + <kbd>N</kbd>: Search classes
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>: Search actions
