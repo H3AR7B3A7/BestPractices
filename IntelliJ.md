@@ -66,22 +66,14 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 
 ## Interesting Keyboard Shortcuts
 
-- <kbd>Ctrl</kbd> + <kbd>K</kbd>: Commit
-- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + K</kbd>: Push
-- <kbd>Alt</kbd> + <kbd>1</kbd>: Project folder
-- <kbd>Alt</kbd> + <kbd>Insert</kbd>: Generate file or code
-- <kbd>Ctrl</kbd> + <kbd>I</kbd>: Implement interface
+- <kbd>Alt</kbd> + <kbd>Enter</kbd>: Show inspections / intentions / fixes
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>: Code suggestions
+- <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>: Refactor menu
 - <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + V</kbd>: Extract variable
 - <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + M</kbd>: Extract method
 - <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + F</kbd>: Extract field
-- <kbd>Ctrl</kbd> + <kbd>B</kbd>: Find usage in code
 - <kbd>Shift</kbd> + <kbd>F6</kbd>: Refactor name
-- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + S</kbd>: Open Settings
-- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Space</kbd>: Code suggestions
-- <kbd>Shift</kbd> x2: Search everywhere
-- <kbd>Ctrl</kbd> + <kbd>F</kbd>: Find in file
-- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + F</kbd>: Find in project / module / directory / scope
-- <kbd>Ctrl</kbd> + <kbd>R</kbd>: Find and replace in file
+- <kbd>Ctrl</kbd> + <kbd>I</kbd>: Implement interface
 - <kbd>Ctrl</kbd> + <kbd>ALt</kbd> + L</kbd>: Format file
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move line
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move block
@@ -90,9 +82,20 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 - <kbd>Alt</kbd> + <kbd>J</kbd>: Add next occurrence to selection
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd>: Remove last occurrence from selection
 - <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd>: Add all occurrences to selection
+
+- <kbd>Ctrl</kbd> + <kbd>K</kbd>: Commit
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + K</kbd>: Push
+- <kbd>Alt</kbd> + <kbd>1</kbd>: Project folder
+- <kbd>Alt</kbd> + <kbd>Insert</kbd>: Generate file or code
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + S</kbd>: Open Settings
+
 - <kbd>Ctrl</kbd> + <kbd>N</kbd>: Search classes
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>: Search actions
-- 2x <kbd>Shift</kbd>: Search all
+- <kbd>Ctrl</kbd> + <kbd>B</kbd>: Find usage in code
+- <kbd>Shift</kbd> x2: Search everywhere
+- <kbd>Ctrl</kbd> + <kbd>F</kbd>: Find in file
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + F</kbd>: Find in project / module / directory / scope
+- <kbd>Ctrl</kbd> + <kbd>R</kbd>: Find and replace in file
 - <kbd>Ctrl</kbd> + <kbd>F12</kbd>: Show members
 - <kbd>F11</kbd> : Bookmark
 - <kbd>Ctrl</kbd> + <kbd>F11</kbd> : Mnemonic bookmark
@@ -103,6 +106,37 @@ Some other functions do not have keyboard shortcuts, you might want to consider 
 - Extract interface
 
 *(Tip: <kbd>Alt</kbd> + <kbd>Numpad 0 - 9</kbd> makes for 10 easy extra shortcuts you can use to suit your needs.)*
+
+## Live Templates
+
+<kbd>Ctrl</kbd> + <kbd>J</kbd>: Show live templates
+
+- fori
+- if
+- ifn
+- sout
+- psvm
+- psfs
+- ...
+
+*Templates are contextually aware.*
+
+### Custom Live Templates
+
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> -> Live Template
+- Add group
+- Add Live Template
+
+Example:
+
+Abbreviation: pcm
+Description: public class method
+Applicable context: Java declaration
+```java
+public $RETURN_TYPE$ $NAME$($INPUT$) {
+    $END$
+}
+```
 
 ## Plugins
 
