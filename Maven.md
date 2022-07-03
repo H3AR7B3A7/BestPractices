@@ -5,12 +5,12 @@ Maven Fundamentals, a pluralsight course by Bryan Hansen
 ## What Is Maven
 
 - A build tool
-  - One artifact
-  - Manage dependencies
+    - One artifact
+    - Manage dependencies
 - Project management tool
-  - Handles versioning/releases
-  - Describes project
-  - Produce Javadocs / site information
+    - Handles versioning/releases
+    - Describes project
+    - Produce Javadocs / site information
 
 ## Why Use Maven
 
@@ -27,20 +27,24 @@ Different mindset:
 Scripting tool <-> build tool
 
 ### Ant
+
 - Replacement for Make
 - Cross-platform
 - Java and XML based
 
 Pro
+
 - Clear and straight forward
 - Quick to learn
 
 Con
+
 - No naming consistency between projects / organisations
 - A lot of copy / pasting, no inheritance
 - Large project size
 
 ### Maven
+
 - Full features
 - Implicit
 - Consistency
@@ -49,11 +53,14 @@ Con
 - Versioned
 
 Pro
+
 - Convention over configuration
 - IDE integration
 - Less overhead
-- 
+-
+
 Con
+
 - Black box
 - Steeper learning curve
 
@@ -74,13 +81,14 @@ We can find more information [here](https://maven.apache.org/install.html).
 Basic example:
 
 ```xml
+
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <groupId>be.dog.d.steven</groupId>
     <artifactId>HelloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    
+
     <build>
         <plugins>
             <plugin>
@@ -96,7 +104,7 @@ Basic example:
 </project>
 ```
 
-## Commands
+## Commands / goals
 
 Clean
 > mvn clean
@@ -106,3 +114,18 @@ Compile
 
 Package
 > mvn package
+
+Install (package + add to local repo)
+> mvn install
+
+Deploy (install + deploy to corporate or remote repo)
+> mvn deploy
+
+## Project Structure
+
+Project
+
+- src/main/java
+- src/test/jave
+- pom.xml
+- target
