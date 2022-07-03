@@ -132,6 +132,7 @@ Example:
 Abbreviation: pcm
 Description: public class method
 Applicable context: Java declaration
+
 ```java
 public $RETURN_TYPE$ $NAME$($INPUT$) {
     $END$
@@ -151,6 +152,9 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - PlantUML integration
 - Spring Boot Assistant
 - UUID Generator
+- .ignore
+- Prettier
+- VisualVM Launcher
 
 ### Cosmetic
 
@@ -158,3 +162,4 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - Dark Purple Theme
 - Nyan Progress Bar
 - Rainbow Brackets
+- Presentation assistant
