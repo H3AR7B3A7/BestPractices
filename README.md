@@ -36,3 +36,7 @@ Various documentations on best practices in software development.
 - [IntelliJ IDEA](IntelliJ.md)
 
 - [UX](UX.md)
+
+- [Project Management: Maven](Maven.md)
+
+- [Project Management: Gradle](Gradle.md)
