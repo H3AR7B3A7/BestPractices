@@ -160,6 +160,9 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - .ignore
 - Prettier
 - VisualVM Launcher
+- Key promoter
+- Save actions
+- Code with me
 
 ### Cosmetic
 
