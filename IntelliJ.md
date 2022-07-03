@@ -68,20 +68,24 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 
 - <kbd>Alt</kbd> + <kbd>Enter</kbd>: Show inspections / intentions / fixes
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>: Code suggestions
+- <kbd>Ctrl</kbd> + <kbd>P</kbd>: Required parameters
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>: Complete current statement
 - <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>: Refactor menu
-- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + V</kbd>: Extract variable
-- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + M</kbd>: Extract method
-- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + F</kbd>: Extract field
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd>: Extract variable
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd>: Extract method
+- <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd>: Extract field
 - <kbd>Shift</kbd> + <kbd>F6</kbd>: Refactor name
 - <kbd>Ctrl</kbd> + <kbd>I</kbd>: Implement interface
-- <kbd>Ctrl</kbd> + <kbd>ALt</kbd> + L</kbd>: Format file
-- <kbd>Alt</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move line
-- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + Up/Down</kbd>: Move block
+- <kbd>Ctrl</kbd> + <kbd>ALt</kbd> + <kbd>L</kbd>: Format file
+- <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Up/Down</kbd>: Move line
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Up/Down</kbd>: Move block
 - <kbd>Ctrl</kbd> + <kbd>D</kbd>: Duplicate line
 - <kbd>Ctrl</kbd> + <kbd>/</kbd>: Comment out / Uncomment
 - <kbd>Alt</kbd> + <kbd>J</kbd>: Add next occurrence to selection
 - <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd>: Remove last occurrence from selection
 - <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd>: Add all occurrences to selection
+- <kbd>Ctrl</kbd> + <kbd>W</kbd>: Grow selection
+- <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Left/Right</kbd>: Grow selection left/right
 
 - <kbd>Ctrl</kbd> + <kbd>K</kbd>: Commit
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + K</kbd>: Push
@@ -100,6 +104,7 @@ IDEA [here](https://www.jetbrains.com/help/idea/http-client-in-product-code-edit
 - <kbd>F11</kbd> : Bookmark
 - <kbd>Ctrl</kbd> + <kbd>F11</kbd> : Mnemonic bookmark
 - <kbd>Shift</kbd> + <kbd>F11</kbd> : Show bookmarks
+- <kbd>Ctrl</kbd> + <kbd>`</kbd> : Show quick switch list
 
 Some other functions do not have keyboard shortcuts, you might want to consider assigning some of these:
 
@@ -163,3 +168,10 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - Nyan Progress Bar
 - Rainbow Brackets
 - Presentation assistant
+
+## Interesting actions
+
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
+
+- Color picker
+- Set Background image
