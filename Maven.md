@@ -129,3 +129,32 @@ Project
 - src/test/jave
 - pom.xml
 - target
+
+## Dependencies
+
+Required items:
+- groupId
+- artifactId
+- version
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.8.1</version>
+  </dependency>
+</dependencies>
+```
+
+### Version
+
+Version naming conventions:
+- SNAPSHOT
+  - Latest in development
+  - Between version numbers
+  - Build is not reproducible
+- RC (Release Candidate) / M (Milestone Release)
+  - Approaching a release
+  - Not fully stable
+- RELEASE
