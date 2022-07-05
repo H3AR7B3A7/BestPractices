@@ -163,6 +163,8 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - Key promoter
 - Save actions
 - Code with me
+- CommitPrefix
+- Pre Commit Hook Plugin
 
 ### Cosmetic
 
