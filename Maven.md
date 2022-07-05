@@ -81,7 +81,6 @@ We can find more information [here](https://maven.apache.org/install.html).
 Basic example:
 
 ```xml
-
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <groupId>be.dog.d.steven</groupId>
     <artifactId>HelloWorld</artifactId>
@@ -133,30 +132,32 @@ Project
 ## Dependencies
 
 Required items:
+
 - groupId
 - artifactId
 - version
 
 ```xml
 <dependencies>
-  <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-lang3</artifactId>
-    <version>3.8.1</version>
-  </dependency>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.8.1</version>
+    </dependency>
 </dependencies>
 ```
 
 ### Version
 
 Version naming conventions:
+
 - SNAPSHOT
-  - Latest in development
-  - Between version numbers
-  - Build is not reproducible
+    - Latest in development
+    - Between version numbers
+    - Build is not reproducible
 - RC (Release Candidate) / M (Milestone Release)
-  - Approaching a release
-  - Not fully stable
+    - Approaching a release
+    - Not fully stable
 - RELEASE
 
 ### Packaging Types
@@ -174,22 +175,22 @@ Adding a dependency will also add all transitive dependencies.
 ### Scopes
 
 - compile
-  - Default
-  - Available everywhere inside the application
+    - Default
+    - Available everywhere inside the application
 - provided
-  - Available throughout the entire build cycle
-  - Not included in final artifact(, because it is provided by the container)
+    - Available throughout the entire build cycle
+    - Not included in final artifact(, because it is provided by the container)
 - runtime
-  - Not needed for compilation, but only for execution
-  - Only included in the final artifact
+    - Not needed for compilation, but only for execution
+    - Only included in the final artifact
 - test
-  - Only available for test compilation and execution
+    - Only available for test compilation and execution
 - system
-  - Hard codes the path to a jar in the file system
-  - Very brittle, do not use
+    - Hard codes the path to a jar in the file system
+    - Very brittle, do not use
 - import
-  - dependency management
-  - share resources across multiple pom files
+    - dependency management
+    - share resources across multiple pom files
 
 ### Optional
 
@@ -213,11 +214,58 @@ We can exclude them using exclusions.
 
 ```xml
 <exclusions>
-  <exclusion>
-    <groupId>org.some.project</groupId>
-    <artifactId>some-project</artifactId>
-  </exclusion>
+    <exclusion>
+        <groupId>org.some.project</groupId>
+        <artifactId>some-project</artifactId>
+    </exclusion>
 </exclusions>
 ```
 
 *To be used as a last resort.*
+
+## Repositories
+
+Local repository
+- ~/.m2
+
+Super pom.xml
+- Maven installation
+- repo.maven.apache.org
+
+Corporate Repository
+- Nexus (= central)
+- Artifactory
+
+```xml
+<repositories>
+  <repository>
+    <id>spring-snapshot</id>
+    <name>Spring Maven SNAPSHOT Repository</name>
+    <url>http://repo.springsource.org/libs/snapshot</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+    <releases>
+      <enabled>false</enabled>
+    </releases>
+  </repository>
+</repositories>
+```
+
+For plugins:
+
+```xml
+<pluginRepositories>
+  <pluginRepository>
+    <id>acme corp</id>
+    <name>Acme Internal Corporate Repository</name>
+    <url>http://acmecorp.com/plugins</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+  </pluginRepository>
+</pluginRepositories>
+```
