@@ -391,5 +391,3 @@ For example the clean plugin:
   </executions>
 </plugin>
 ```
-
-## IDE Integration
