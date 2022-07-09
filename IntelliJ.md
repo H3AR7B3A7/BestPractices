@@ -173,6 +173,7 @@ public $RETURN_TYPE$ $NAME$($INPUT$) {
 - Nyan Progress Bar
 - Rainbow Brackets
 - Presentation assistant
+- Emoji Support Plugin
 
 ## Interesting actions
 
