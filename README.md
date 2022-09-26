@@ -8,8 +8,8 @@ Various documentations on best practices in software development.
     (Clean Code, by R.C. Martin)
 
 - [OOP in Java](OOP.md)  
-  (Effective Java, by Joshua Bloch)  
-  (...)
+    (Effective Java, by Joshua Bloch)  
+    (...)
 
 - [Domain Driven Design](Domain%20Driven%20Design.md)  
     (Domain Driven Design, by E. Evans)
@@ -22,6 +22,9 @@ Various documentations on best practices in software development.
 
 - [UX](UX%20Team%20of%20One.md)  
     (The User Experience Team of One, by Leah Buley)
+
+- [Clean Architecture](Clean%20Architecture.md)
+    (Clean Architecture, by R.C. Martin)
 
 ### Other Summaries
 
