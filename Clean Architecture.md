@@ -105,7 +105,19 @@ In OO we gained:
 - More safety (No more calling functions through pointers)
 - Convenience
 
+### Dependency Inversion
+
+_Inverting source code dependencies through inserting an interface between them, in opposite direction to the flow of control._
+
+Example: Make DB and UI depend on business rules, not mentioning UI or DB in it
+
+Gains:
+- Independent deploy-ability
+- Independent develop-ability
+
 ### Conclusion
+
+_Ability through polymorphism to gain absolute control over every source code dependency, allows for a plugin architecture._
 
 _All of the above just helps to impose discipline **on indirect transfer of control**._
 
@@ -141,4 +153,37 @@ No concurrency issues
 ### Conclusion
 
 _All of the above just helps to impose discipline on **variable assignment**._
+
+## Design Principles
+
+### SOLID
+
+The goal is, mid-level software structures that:
+- Tolerate change
+- Are easy to understand
+- Are the basis of components that can be used in many software systems
+
+The principles:
+- Single Responsibility Principle
+
+  The module has only one reason to change
+
+- Open Closed Principle
+
+  Allow for change in behaviour by adding code, without needing to change it
+
+- Liskov Substitution Principles
+
+  Interchangeable parts must adhere to a contract that allows substitution
+
+- Interface Segmentation Principles
+
+  Avoid depending on things we do not use
+
+- Dependency Inversion Principle
+
+  High level policy should not depend on low level details, details should depend on policy
+
+For more details:
+[Agile Software Development, Principles, Patterns & Practices - R.C. Martin](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445)
 
