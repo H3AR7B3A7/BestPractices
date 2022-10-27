@@ -32,3 +32,113 @@ Developers and even more so architects as part of the stakeholders need to fight
   - Structured
   - Object-oriented
   - Functional
+
+_Each paradigm **removes** capabilities:_
+- goto statements
+- function pointers
+- assignment
+
+_All of these discoveries were made between 1958 - 1968. No new paradigms since._
+
+means:
+- polymorphism to cross architectural boundaries
+- functional programming to impose discipline on the location of and access to data
+- structured programming as algorithmic foundation of modules
+
+map to goals
+- function
+- separation of components
+- data management
+
+## Structured Programming
+
+Minimum set of structures:
+- Selection
+- Iteration
+- Sequence
+
+_These can both create any program and are provable._
+
+- Provable
+  - Euclidean mathematical proof -> prove true
+  - Scientific proof -> prove false
+- Unprovable
+
+_Structured Programming promotes **functional decomposition** into small falsifiable units._
+
+### Conclusion
+
+_All of the above just helps to impose discipline on **direct transfer of control**._
+
+
+## OOP
+
+Some definitions:
+- "The combination of data and functions" -> unsatisfying
+- "A way to model the real world" -> evasive
+- "Encapsulation, inheritance and polymorphism" -> ?
+
+### Encapsulation
+
+C had perfect encapsulation through forward declaring in header files.
+
+- C++ broke this perfect encapsulation:
+
+  Class member values need to be declared in header file of that class.
+  This was partially repaired by access modifiers (private/ public / protected)
+
+- Java / C# no longer have header files
+
+### Inheritance
+
+_Redeclaration of variables was already possible in C through single inheritance, using some trickery with pure supersets._
+
+In OO we gained:
+- Multiple inheritance
+- Implicit upcasting
+
+### Polymorphism
+
+_In C STDIN & STDOUT can have different implementations. Applications of pointers to functions existed way before OO._
+
+In OO we gained:
+- More safety (No more calling functions through pointers)
+- Convenience
+
+### Conclusion
+
+_All of the above just helps to impose discipline **on indirect transfer of control**._
+
+## Functional Programming
+
+_Pure functional languages do not allow for mutated variables._
+
+### Immutability
+
+No concurrency issues
+- Race conditions
+- Deadlock conditions
+- Concurrent update conditions
+
+#### Tradeoffs
+
+- Segregation of mutability:
+
+  Immutable components -> mutable component -> transactional memory
+
+  Transactional memory to protect the mutable variables from concurrency issues,
+  using transaction- / retry based schemes.
+
+  Moving processing in immutable components / out of the mutable components.
+
+- Event sourcing
+
+  Only create and read:
+  - storing ALL transactions
+  - Never updating state
+  - Process the data only when needed
+
+### Conclusion
+
+_All of the above just helps to impose discipline on **variable assignment**._
+
